@@ -131,7 +131,6 @@ const dest = "../data/";
     reader = new Reader('./tmp/extracted/items');
 
     let items = [];
-
     while (line = reader.next()) {
         let row = CSV.parse(line.toString())[0];
         items.push({
@@ -153,15 +152,17 @@ const dest = "../data/";
 
     fs.writeJsonSync(dest + 'items.json', items, { spaces: 4});
 
+    const ln = [];
     if (!fs.existsSync(dest + 'items')) fs.mkdirSync(dest + 'items');
     for (let i=1;i<=894;i++) {
         try {
             fs.writeFileSync(`${dest}items/${i}.png`, await download(base(`play/item/i/${i}`)));
+            ln.push(i);
         } catch (e) {
             console.log('\x1b[31m%s\x1b[0m', `Error downloading ${PO_URL}play/item/i/${i}`)
         }
     }
-
+    fs.writeJsonSync(dest + 'items.files.json', ln, { spaces: 4});
 
 
 
