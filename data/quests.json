@@ -1,0 +1,274 @@
+[
+    {
+        "name": "Potion Production",
+        "npc": "Mikaela",
+        "lvlreq": 0,
+        "unknownCol": 0,
+        "hint": "The [Potion house] is running out of [[[potions]. They need ingredients to produce potions for Pacifica people.",
+        "objective": "Gather [[[20 red herbs] from a [[Leafie]."
+    },
+    {
+        "name": "Manuscripts",
+        "npc": "Lady Mariane",
+        "lvlreq": 5,
+        "unknownCol": 0,
+        "hint": "There are [[[manuscripts] in the [Library] that are not yet published because they need stock of papers for producing so.",
+        "objective": "Gather [[[30 quality leaves] from a light green [Mob]."
+    },
+    {
+        "name": "Habulan Memories",
+        "npc": "Eric",
+        "lvlreq": 0,
+        "unknownCol": 12,
+        "hint": "[[Eric] reminisce his habulan moments. He used to collect [[[trophies] but got halted since he started working in the [Shop].",
+        "objective": "Win [[Habulan Tulungan] mini-game 5 times"
+    },
+    {
+        "name": "SOS Training",
+        "npc": "Alfred",
+        "lvlreq": 30,
+        "unknownCol": 21,
+        "hint": "There is rumored upcomming [[[[SOS Tournament] but it is only [[Alfred], the game organizer, who can decide who are going to compete.",
+        "objective": "Beat him 3 times"
+    },
+    {
+        "name": "Locker Keys",
+        "npc": "John",
+        "lvlreq": 13,
+        "unknownCol": 5,
+        "hint": "[[John] lost the [[[keys] while picking up bulk items from the [Field].",
+        "objective": "Find [[12 storage keys]. A mamal on the [Field] might found and took it."
+    },
+    {
+        "name": "Woods for Chivalry",
+        "npc": "Victor",
+        "lvlreq": 10,
+        "unknownCol": 0,
+        "hint": "The [Chivalry] needs spare [[[woods] for making basic armors and weapons.",
+        "objective": "Gather [[[24 woods] from a hard shelled Mob on the [Field]."
+    },
+    {
+        "name": "Sinews for Chivalry",
+        "npc": "Steve",
+        "lvlreq": 13,
+        "unknownCol": 0,
+        "hint": "[[[Sinew] is the most essential material needed for crafting [[[bows]. The [Chivalry] are looking for volunteers who can provide those.",
+        "objective": "Gather [[[36 sinews] from a pink mob outside the [Fortress]."
+    },
+    {
+        "name": "I Like [[Lady Maya]",
+        "npc": "John",
+        "lvlreq": 0,
+        "unknownCol": 0,
+        "hint": "[[John] wants to make Lady [[Maya] happy thats why he wanted to create a special gift for her, however, he need help because he couldn't manage to leave his task in their [Shop].",
+        "objective": "Gather [[[26 red flowers], [-u-h--0-]'s favorite food."
+    },
+    {
+        "name": "I Like [[Lady Mariane]",
+        "npc": "Eric",
+        "lvlreq": 17,
+        "unknownCol": 6,
+        "hint": "[[Eric] needs materials to create [[[purple flower crown] for Lady [[Mariane].",
+        "objective": "Gather [[[35 purple flowers], [[--u-]'s favorite food."
+    },
+    {
+        "name": "I Like [[Mikaela]",
+        "npc": "Ricky",
+        "lvlreq": 5,
+        "unknownCol": 0,
+        "hint": "There is an existing [[[[good friendship bond] between [[Mikaela] and [[Ricky] since their childhood but what [[Ricky] feels is beyond what [[Mikaela] knew and believe. He is planning to create something for her together with a [[[love letter] written by him with all of his heart.",
+        "objective": "Gather [[[28 blue flowers], [--o-]'s favorite food."
+    },
+    {
+        "name": "But I Like [[Mikaela] Too",
+        "npc": "Razor",
+        "lvlreq": 18,
+        "unknownCol": 9,
+        "hint": "[[Razor] acts weird, I think he's planning something for [[Mikaela].",
+        "objective": "Gather [[[30 white flowers], [-a-e----l--]'s favorite food."
+    },
+    {
+        "name": "Focus [[Ricky] Focus!",
+        "npc": "Ricky",
+        "lvlreq": 0,
+        "unknownCol": "10,12,1023",
+        "hint": "[[Ricky] suddenly discovered that [[Mikaela] likes [[Razor] but not him. He is deeply saddened and don't want to talk to anybody. He needs someone to give advice on how to get along with his life.",
+        "objective": "Give him advice"
+    },
+    {
+        "name": "The Family Picnic",
+        "npc": "Joshua",
+        "lvlreq": 21,
+        "unknownCol": 0,
+        "hint": "[[Joshua] is planning to cook something special for his familiy picnic.",
+        "objective": "Gather [[[22 raw crab meats]"
+    },
+    {
+        "name": "Sticky Gels",
+        "npc": "Mikaela",
+        "lvlreq": 23,
+        "unknownCol": 9,
+        "hint": "There are [[[[jelly-type] monsters producing [[[adhesive gels] that was discovered to be efficient tool of [[Rangers] in training.",
+        "objective": "Gather [[[30 adhesive gels]"
+    },
+    {
+        "name": "Dad's Pendant",
+        "npc": "Pete",
+        "lvlreq": 25,
+        "unknownCol": 0,
+        "hint": "[[Pete] lost his Dad's precious pendant somewhere in the [Swamp].",
+        "objective": "Find his [[[pendant]."
+    },
+    {
+        "name": "Warp Orbs",
+        "npc": "Zen",
+        "lvlreq": 27,
+        "unknownCol": 14,
+        "hint": "[[Purified spirit stones] are used to make warp orbs. [[Zen] needs them to provide warp services. This attracts a specific undead monster.",
+        "objective": "Gather [[[25 purified spirit stones]"
+    },
+    {
+        "name": "Jackets",
+        "npc": "Ricky",
+        "lvlreq": 30,
+        "unknownCol": 15,
+        "hint": "[[[Jackets] are in demand in [[Ricky's] shop. However, he needs more materials to provide the supply and demand of his [Shop].",
+        "objective": "Gather [[[40 furs]"
+    },
+    {
+        "name": "Potion Experiment",
+        "npc": "George",
+        "lvlreq": 35,
+        "unknownCol": 18,
+        "hint": "[[George] is currenlty experimenting a different kind of potion but the [[[main ingredient] for doing so is located in a wild and dangerous place he couldn't manage to go.",
+        "objective": "Gather [[[24 exotic leaves]"
+    },
+    {
+        "name": "Mines",
+        "npc": "Mikaela",
+        "lvlreq": 34,
+        "unknownCol": 19,
+        "hint": "[[[Mines] are essential to [[Rangers] especially during [[[[wars]. The [Potion house] needs your help in creating them.",
+        "objective": "Gather [[[42 purified dark stones]"
+    },
+    {
+        "name": "Swamp Potions",
+        "npc": "George",
+        "lvlreq": 30,
+        "unknownCol": 0,
+        "hint": "George needs another [[[stock of potions] from Mikaela in [Potion house]",
+        "objective": "Bring the [[[potion delivery box] from Mikaela to him without getting trouble with monsters"
+    },
+    {
+        "name": "Pillow",
+        "npc": "Lady Maya",
+        "lvlreq": 36,
+        "unknownCol": 0,
+        "hint": "The [Inn] usually replaces their [[[pillows] on every customer going for a sleep.",
+        "objective": "Gather [[[27 cottons]"
+    },
+    {
+        "name": "Waif Camp Potions",
+        "npc": "Alfred",
+        "lvlreq": 0,
+        "unknownCol": 0,
+        "hint": "[[Alfred's] shop have few potions remaining. He need to get stock from [Potion house] but he can't leave his shop alone.",
+        "objective": "Pickup [[delivery] from the [Potion house] to [[Alfred]"
+    },
+    {
+        "name": "True Bound Swordsman",
+        "npc": "Rafaga",
+        "lvlreq": 37,
+        "unknownCol": 0,
+        "hint": "A sentimental valued item of [[Rafaga] just got lost.",
+        "objective": "Find [[Rafaga]'s [[[Punyal] in the [Dark wilderness] (map 0 to 20)"
+    },
+    {
+        "name": "The Stolen Ornament",
+        "npc": "Lady Maya",
+        "lvlreq": 25,
+        "unknownCol": 0,
+        "hint": "Help [[Lady Maya] look for the stolen item from the [inn].",
+        "objective": "Find the missing [[[Golden bee ornament] at the [Swamp] (map 0 to 20)"
+    },
+    {
+        "name": "Save Little Parurus",
+        "npc": "Raigah",
+        "lvlreq": 40,
+        "unknownCol": 0,
+        "hint": "Look for [[Mitto]'s missing serene pack to cure sick Parurus.",
+        "objective": "Find 5 [[[Wild serene flowers] at the [Grassland] (map 0 to 20)"
+    },
+    {
+        "name": "Delicate Delicacy",
+        "npc": "Alfred",
+        "lvlreq": 45,
+        "unknownCol": 0,
+        "hint": "Something's missing from [[Alfred]'s recipe.",
+        "objective": "Find 10 [[[Wild kabute] at [Nurua forest] (map 0 to 20)"
+    },
+    {
+        "name": "Beauty in the Sky",
+        "npc": "Mikaela",
+        "lvlreq": 0,
+        "unknownCol": 0,
+        "hint": "[[Mikaela] watched a meteor shower with [[Ricky]",
+        "objective": "Find the [[[Meteoric stone] at the [Field] (map 0 to 20)"
+    },
+    {
+        "name": "Mommy Paruru Went Lala",
+        "npc": "Mitto",
+        "lvlreq": 35,
+        "unknownCol": 0,
+        "hint": "Someone just nab Paruru eggs out of [[Shoruru]'s nest. Who's this NPC?",
+        "objective": "Find out who's the man on Chaleco who nabbed [[Shororu]'s  2 Missing [[[Egg de paruru]s."
+    },
+    {
+        "name": "Cash Collection",
+        "npc": "Lloyd",
+        "lvlreq": 60,
+        "unknownCol": 0,
+        "hint": "[[Lloyd] lost his debt list and couldn't remember who's on the lost List.",
+        "objective": "Collect 15 [[[Cash collection]s from [[Lloyd]'s [[NPC] friends around [Pacifica]. Find out who are these [[NPC]s"
+    },
+    {
+        "name": "Ah Yay Yay! My Little Muffy Fly",
+        "npc": "Raigah",
+        "lvlreq": 24,
+        "unknownCol": 0,
+        "hint": "[Grassland village] needs something to grow crops faster during dry season.",
+        "objective": "Find 3 [[[Echo stone] from [[Muffy flies] near the [Field] bounderies going to [Swamp]."
+    },
+    {
+        "name": "Pipe Master @name",
+        "npc": "Eric",
+        "lvlreq": 10,
+        "unknownCol": 0,
+        "hint": "[Fortress] is having a pipeline problem. They need you to fix it!",
+        "objective": "Find the broken pipelines and fix it. [[Eric] gave you a [[[Pipe tools]."
+    },
+    {
+        "name": "Finishing Flare Day",
+        "npc": "Darus",
+        "lvlreq": 60,
+        "unknownCol": 0,
+        "hint": "[[Darus] has been chosen to put [[[Flare stone]s around [Pacifica] indoor shops for the Flare day event. Now he asked you to help him remove the flares.",
+        "objective": "Find all [[[Flare stone] in all indoor shops. Look carefully for something ignited."
+    },
+    {
+        "name": "Mistery Case 1",
+        "npc": "Mikaela",
+        "lvlreq": 60,
+        "unknownCol": 0,
+        "hint": "Someone broke the [Potion house]'s window last night. [[Mikaela] wants you to invistigate.",
+        "objective": "Find who broke [[Mikaela]'s window. Investigate all NPCs at the fortress and compile their [[[Alibi report]."
+    },
+    {
+        "name": "Find Mi Snuggies!",
+        "npc": "Mikaela",
+        "lvlreq": 60,
+        "unknownCol": 0,
+        "hint": "[[Mikaela] lost her snuggies on while delivering potion to [[Rafaga] so you need to get it for her or she will again sleep walk.",
+        "objective": "Find [[Mikaela]'s snuggies on the [Wilderness]."
+    }
+]

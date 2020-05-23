@@ -13,6 +13,7 @@ const dest = "../data/";
 
 
     if (!fs.existsSync('tmp')) fs.mkdirSync('tmp');
+    if (!fs.existsSync(dest)) fs.mkdirSync(dest);
 
     let reader;
     let line;
