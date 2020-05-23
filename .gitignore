@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-node/node_modules
+data_downloader/node_modules
 /dist
 data_downloader/tmp
 
