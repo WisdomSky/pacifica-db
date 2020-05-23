@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "download": "cd data_downloader && npm install && node exec.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
