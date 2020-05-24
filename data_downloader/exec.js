@@ -6,7 +6,7 @@ const CSV = require('comma-separated-values');
 const rimraf = require('rimraf');
 
 
-const dest = "../data/";
+const dest = "../src/assets/";
 
 
 (async () => {
