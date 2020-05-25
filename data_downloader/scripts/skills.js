@@ -16,7 +16,7 @@ exports.fetch = function () {
 
         let reader = new Reader(config.tmp +'/extracted/skills');
 
-        let classes = ['Warrior', 'Waif', 'Archer', 'Deacon', 'Knight', 'Bandit', 'Ranger', 'Cleric'];
+        let classes = ['Swordsman', 'Waif', 'Archer', 'Deacon', 'Knight', 'Bandit', 'Ranger', 'Cleric'];
 
 
         let skill_types = {

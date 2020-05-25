@@ -2,6 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Items from '../views/Items.vue'
+import Classes from '../views/Classes.vue'
+import Gallery from '../views/Gallery.vue'
+import Music from '../views/Music.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +18,21 @@ Vue.use(VueRouter)
     path: '/items',
     name: 'Items',
     component: Items
+  },
+  {
+    path: '/classes',
+    name: 'Classes',
+    component: Classes
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: Gallery
+  },
+  {
+    path: '/music',
+    name: 'Music',
+    component: Music
   },
   {
     path: '/about',

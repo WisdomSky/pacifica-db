@@ -14,7 +14,7 @@ exports.fetch = function () {
         fs.writeFileSync(config.tmp + '/items.gz', await download(base('play/itemdesc')));
         await extract(config.tmp + '/items.gz', config.tmp + '/extracted');
 
-        let classes = ['Warrior', 'Waif', 'Archer', 'Deacon', 'Knight', 'Bandit', 'Ranger', 'Cleric'];
+        let classes = ['Swordsman', 'Waif', 'Archer', 'Deacon', 'Knight', 'Bandit', 'Ranger', 'Cleric'];
         let reader = new Reader(config.tmp + '/extracted/items');
         let line;
 

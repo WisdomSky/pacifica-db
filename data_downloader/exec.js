@@ -5,6 +5,7 @@ const utils = require('./utils');
 
 const config = require('./config');
 
+const hash = require('hash-sum');
 
 (async () => {
 
@@ -38,7 +39,8 @@ const config = require('./config');
     let itemsidflipped = utils.objectFlip(itemsid);
 
     let itemsmapped = items.map((item) => {
-        item.id = itemsidflipped[item.name];
+        item.id = Number(itemsidflipped[item.name]);
+        item.hash = hash(item);
         return item;
     });
 

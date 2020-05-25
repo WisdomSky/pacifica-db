@@ -1,1 +1,58 @@
 
+.navbar-collapse.collapse {
+  z-index: 10000;
+
+  background-color: rgba(47, 199, 226, 1);
+  margin-left: -16px;
+  margin-right: -16px;
+
+  & .nav-item, & .b-nav-dropdown {
+
+    &:hover {
+      border-bottom: 1px solid #fff;
+    }
+
+  }
+
+
+}
+
+
+
+@media all and (max-width: 992px) {
+    .dropdown-menu.dropdown-menu-right {
+      display: block;
+      background-color: rgba(47, 199, 226, 1);
+      border: 0;
+
+        .dropdown-item {
+          background-color: transparent;
+        }
+
+    }
+
+  .navbar-collapse.collapse {
+    z-index: 10000;
+
+    background-color: rgba(47, 199, 226, 1);
+    margin-left: -16px;
+    margin-right: -16px;
+
+    & .nav-item, & .b-nav-dropdown {
+
+      &:hover {
+        border-bottom: 0;
+      }
+
+
+      &.b-nav-dropdown .dropdown-item {
+        color: #fff;
+        text-align: center;
+      }
+
+    }
+
+
+  }
+
+}
