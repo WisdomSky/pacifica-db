@@ -194,6 +194,11 @@
                         author: 'Gagatiga Kevin‎‎',
                         type  : 'game',
                         date  : '2020-05-26 12:39:00'
+                    }, {
+                        src   : gallery('./7.jpg'),
+                        author: 'Keneth Altiveros',
+                        type  : 'game',
+                        date  : '2020-05-26 20:48:00'
                     }
 
                 ],
