@@ -8,7 +8,7 @@
         "maxlvl": 1,
         "secondclass": 0,
         "classreq": 0,
-        "classreqlbl": "Warrior",
+        "classreqlvl": "Swordsman",
         "desc": "150% attack damage"
     },
     {
@@ -20,7 +20,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 0,
-        "classreqlbl": "Warrior",
+        "classreqlvl": "Swordsman",
         "desc": "Increase life gauge and regeneration."
     },
     {
@@ -32,7 +32,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 0,
-        "classreqlbl": "Warrior",
+        "classreqlvl": "Swordsman",
         "desc": "Becomes one with your sword."
     },
     {
@@ -44,7 +44,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 0,
-        "classreqlbl": "Warrior",
+        "classreqlvl": "Swordsman",
         "desc": "Agitates as HP falls down and also increases your defense rate. Your normal attack will be a percentage higher depending on the percentage of life you have lost.\\n\\nThe rage effect depends on the skill level. Having a 25% life, which is 75% lost life, and you have the max skill level, you get 50% effectiveness which causes 35% normal attack damage increase."
     },
     {
@@ -56,7 +56,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 0,
-        "classreqlbl": "Warrior",
+        "classreqlvl": "Swordsman",
         "desc": "Originates from an ancient swordsmen tribe that heats up the sword and deals great damage. Also increases normal attack damage for 8 seconds."
     },
     {
@@ -68,7 +68,7 @@
         "maxlvl": 3,
         "secondclass": 0,
         "classreq": 0,
-        "classreqlbl": "Warrior",
+        "classreqlvl": "Swordsman",
         "desc": "An outward force emitted from spinning sword. Splash damage to 1 cell away surrounding enemies"
     },
     {
@@ -80,7 +80,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 0,
-        "classreqlbl": "Warrior",
+        "classreqlvl": "Swordsman",
         "desc": "A skill pioneered by Marucs, a legendary swordsman. Target's your enemy's joints and inflicts two slashes. On successful hit, the enemy will suffer defense down for 8 seconds."
     },
     {
@@ -92,7 +92,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Increase weapon damage for 60 seconds."
     },
     {
@@ -104,7 +104,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Skill power of Helios. Increases player protection for 60 seconds"
     },
     {
@@ -116,7 +116,7 @@
         "maxlvl": 16,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Enchant party with strength. Raises maximum attack damage of all visible party members, including you, for 15 seconds"
     },
     {
@@ -128,7 +128,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Increase normal attack speed by 25% but lowers your defense for 60 seconds. There is also an increase to the effect of normal attack damage of the rage effect."
     },
     {
@@ -140,7 +140,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Counter-back to an attack, observe movements to counter attack physical damage received from nearby enemies for 60 seconds. 25% critical damage of your normal attack damage retaliated"
     },
     {
@@ -152,7 +152,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Shocks the area and damage all enemies within range. A powerful no-miss splash damage to 3.5 cells away surrounding enemies giving them dodge penalty for 15 seconds. However, you also receive same damage as you did.\\n\\nYou can not use this skill after 10 seconds because of sudden fatigue."
     },
     {
@@ -164,7 +164,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Swordsman technique that damage an enemy using HP. HP deduction will be half the damage you inflicted."
     },
     {
@@ -176,7 +176,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Strikes a powerfull combo. 2 strikes when used alone. 3 strikes when used right after Level 10 Way of the sword. 25% chance to prevent enemy from moving for 2 seconds.\\n\\nWhen you mastered this and Berserk skill, you will have 10% chance to land two slashes this skill on enemy for 100% damage per slash while you are in Berserk mode but have no mana cost, 2-sec walk penalty and considered as normal attack damage so rage effect is still applied."
     },
     {
@@ -188,7 +188,7 @@
         "maxlvl": 1,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "+30 maximum attack damage to all visible party members for 20 seconds"
     },
     {
@@ -200,7 +200,7 @@
         "maxlvl": 0,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Special skill that can only be invoked when Berserk is used right after Battle Roar. Same effect as Berserk but have no defense penalty."
     },
     {
@@ -212,7 +212,7 @@
         "maxlvl": 0,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Special skill that can only be invoked when Empire Shock is used right after Empire Breaker or Battle Roar. When used right after Empire Breaker's complete combo chain of Way of the Sword and Terror of the Empire, damage will be doubled but not the damage you will receive.\\n\\nWhen chained from Battle Cry, +50% damage but not the damage you will receive. The splash range also extends to 4 cells. The dodge and defense penalty extends to 20 seconds."
     },
     {
@@ -224,7 +224,7 @@
         "maxlvl": 1,
         "secondclass": 1,
         "classreq": 0,
-        "classreqlbl": "Knight",
+        "classreqlvl": "Knight",
         "desc": "Targets enemy's weakest point. When used alone, inflicts 100% damage and enemy will be 12.5% vulnerable to critical damage (if attack didn't miss) for 10 seconds.\\n\\nWhen used right after Level 10 Way of the Sword, will inflict 200% damage and critical penalty of 16.8% for 12 seconds, also extends Way of the Sword defense down penalty for 12 seconds.\\n\\nThere is a special combo chain if Level 10 Way of the Sword is followed by Level 10 Terror of the Empire then followed by this skill wherein inflicts 400% damage and extends Way of the Sword defense penalty and 16.8% critical penalty to 15 seconds but you will undergo sudden fatigue that prevents you from using any skill for 3 seconds."
     },
     {
@@ -236,7 +236,7 @@
         "maxlvl": 1,
         "secondclass": 0,
         "classreq": 1,
-        "classreqlbl": "Waif",
+        "classreqlvl": "Waif",
         "desc": "150% attack damage"
     },
     {
@@ -248,7 +248,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 1,
-        "classreqlbl": "Waif",
+        "classreqlvl": "Waif",
         "desc": "Alert nerve points for better evasion."
     },
     {
@@ -260,7 +260,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 1,
-        "classreqlbl": "Waif",
+        "classreqlvl": "Waif",
         "desc": "Adds chance to damage an enemy using both edge of the dagger inflicting double damage. Also increases your attack damage."
     },
     {
@@ -272,7 +272,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 1,
-        "classreqlbl": "Waif",
+        "classreqlvl": "Waif",
         "desc": "Decrease attack speed delays, improve critical hits and enhance Double Edge chance."
     },
     {
@@ -284,7 +284,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 1,
-        "classreqlbl": "Waif",
+        "classreqlvl": "Waif",
         "desc": "Two sharp and powerful strikes"
     },
     {
@@ -296,7 +296,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 1,
-        "classreqlbl": "Waif",
+        "classreqlvl": "Waif",
         "desc": "Steals an item from enemy. There is 50% chance that the stolen item will be dropped again by the monster. A monster can only be stolen once."
     },
     {
@@ -308,7 +308,7 @@
         "maxlvl": 1,
         "secondclass": 0,
         "classreq": 1,
-        "classreqlbl": "Waif",
+        "classreqlvl": "Waif",
         "desc": "A skill that can only be used if you're standing right beside any wall. Monsters will stop attacking you and agressive monsters won't be able to see you.\\n\\nYou can not use any item if this skill is activated, however, you can still regenerate life and mana. Walking or attacking anything will deactivate this skill."
     },
     {
@@ -320,7 +320,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Improve ambidexterity when using dual dagger.\\n\\nBeing able to handle dual dagger is one of unique capabilities of Bandits. The double edge chance percentage will turn into attack damage percentage increase instead as you become a Bandit.\\n\\nWhile using dual dagger, your right-hand attack will do 100% of your damage while the other hand do 50% damage, a total of 150% damage on each normal attack if you have maxed out Eccentric and Double Edge skill."
     },
     {
@@ -332,7 +332,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Increase normal attack speed by 25% but lowers your dodge for 60 seconds"
     },
     {
@@ -344,7 +344,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Enhances critical rate and boosts your luck attribute. Your luck to be boosted comes from your attribute excluding luck effect from items.\\n\\nYour base luck will serve as an additional critical rate. Having 50 luck and max level of this skill boosts critical rate by +7.8% and 22% of luck which is +11%."
     },
     {
@@ -356,7 +356,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Drains mana of the enemy on each attack for 60 seconds. Chance is 50% of your critical rate from luck, excluding critical effect from buffs. Chance can also be increased by upgrading this skill."
     },
     {
@@ -368,7 +368,7 @@
         "maxlvl": 5,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Uses your money to distract enemy. The enemy will end up facing backwards and get stunned but gets normal after receiving any damage. You can only fool enemy once every 30 seconds."
     },
     {
@@ -380,7 +380,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Fully avoid next physical damage you will receive. Doesn't work on critical and magical attacks. The chance will be 1/4 if the next damage done by a skill."
     },
     {
@@ -392,7 +392,7 @@
         "maxlvl": 4,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Holds-up an enemy. A skill that can only be used to enemies that was successfully Evading Backstabbed. You and the enemy will not be able to move for 30 seconds.\\n\\nThis skill will be cancelled once you have received a damage or you walked. If you are buffed by Vitality Barrier, it is not counted as a hit so you continue to hold up the enemy. Doesn't work on boss monsters."
     },
     {
@@ -404,7 +404,7 @@
         "maxlvl": 3,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Piss-off enemy and make him do nothing but to attack you for 5 seconds, the enemy will be unable to control himself. The first damage you will receive from the enemy will be critical and +25% damage because the enemy is really pissed-off. The enemy will be calm and be back to normal when he receive any healing skill.\\n\\nYou can only be successfull pissing-off Deacons/Clerics if they don't have any ally 2-cells near from them.\\n\\nYou can only piss-off enemy once every 60 seconds."
     },
     {
@@ -416,7 +416,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Disperse smoke around to enhance dodge for 60 seconds."
     },
     {
@@ -428,7 +428,7 @@
         "maxlvl": 1,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Speeds up running for 8 seconds."
     },
     {
@@ -440,7 +440,7 @@
         "maxlvl": 4,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Inflicts critical damage. This skill can only be used if you're standing right behind the enemy "
     },
     {
@@ -452,7 +452,7 @@
         "maxlvl": 8,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "A skill that only belongs to most trained and dangerous Bandits in Pacifica who have mastered the art of dual dagger. Multiplies yourself in to three to strike up multiple damage to enemy. You can't use any skill for 2 seconds because of sudden vertigo."
     },
     {
@@ -464,7 +464,7 @@
         "maxlvl": 0,
         "secondclass": 1,
         "classreq": 1,
-        "classreqlbl": "Bandit",
+        "classreqlvl": "Bandit",
         "desc": "Special skill that can only be invoked when Level 10 Time Compression is used right after Level 10 Mist. Same effect as Time Compression but have no dodge penalty."
     },
     {
@@ -476,7 +476,7 @@
         "maxlvl": 1,
         "secondclass": 0,
         "classreq": 2,
-        "classreqlbl": "Archer",
+        "classreqlvl": "Archer",
         "desc": "150% damage"
     },
     {
@@ -488,7 +488,7 @@
         "maxlvl": 14,
         "secondclass": 0,
         "classreq": 2,
-        "classreqlbl": "Archer",
+        "classreqlvl": "Archer",
         "desc": "Familiarizes the area of combat to shoot arrows much farther than usual."
     },
     {
@@ -500,7 +500,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 2,
-        "classreqlbl": "Archer",
+        "classreqlvl": "Archer",
         "desc": "Passively acquires the prime foundation of the bow."
     },
     {
@@ -512,7 +512,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 2,
-        "classreqlbl": "Archer",
+        "classreqlvl": "Archer",
         "desc": "Targets enemies' vital points easier and shoot arrows more accurately."
     },
     {
@@ -524,7 +524,7 @@
         "maxlvl": 7,
         "secondclass": 0,
         "classreq": 2,
-        "classreqlbl": "Archer",
+        "classreqlvl": "Archer",
         "desc": "Uses area energy collision to create an open root of energy causing a much better mana rejuvination."
     },
     {
@@ -536,7 +536,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 2,
-        "classreqlbl": "Archer",
+        "classreqlvl": "Archer",
         "desc": "Learns dual arrow handling in a bow to release two arrows in a row."
     },
     {
@@ -548,7 +548,7 @@
         "maxlvl": 3,
         "secondclass": 0,
         "classreq": 2,
-        "classreqlbl": "Archer",
+        "classreqlvl": "Archer",
         "desc": "A 3 cell-ranged attack that stuns enemies and make them immobilized for 2.5 seconds. Inflicts 50% damage to each affected enemies."
     },
     {
@@ -560,7 +560,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 2,
-        "classreqlbl": "Archer",
+        "classreqlvl": "Archer",
         "desc": "Most likely a raven for hunting its prey. The raven's eye."
     },
     {
@@ -572,7 +572,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Enchant with the power of Apollo for 60 seconds"
     },
     {
@@ -584,7 +584,7 @@
         "maxlvl": 12,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Turns into a burst firing machine. 25% faster normal attack speed but decreases your defense for 60 seconds."
     },
     {
@@ -596,7 +596,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Enhances critical rate and boosts your luck attribute. Your luck to be boosted comes from your attribute excluding luck effect from items.\\n\\nYour base luck will serve as an additional critical rate. Having 50 luck and max level of this skill boosts critical rate by +7.8% and 22% of luck which is +11%."
     },
     {
@@ -608,7 +608,7 @@
         "maxlvl": 8,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Requires Mine item. Deals splash (2 cells) damage that doesn't miss. Increasing level of this skill enhances your mine planting ability and techniques to optimize the mine explosion damage. Up to 3 mines can be planted."
     },
     {
@@ -620,7 +620,7 @@
         "maxlvl": 1,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Detonation skill for explosives."
     },
     {
@@ -632,7 +632,7 @@
         "maxlvl": 1,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Requires sticker item. Up to 3 stickers can be planted."
     },
     {
@@ -644,7 +644,7 @@
         "maxlvl": 1,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Activation skill for stikers."
     },
     {
@@ -656,7 +656,7 @@
         "maxlvl": 1,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Deals 100% damage to target plus 2 nearby enemies."
     },
     {
@@ -668,7 +668,7 @@
         "maxlvl": 8,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Strikes a long lasting linear damage that damages all enemies along the direction of the target.\\n\\nThe initial damage will be received by the nearest enemy, the following enemy will receive a damage decreased by 12.5% and so on. It keeps hitting enemies along the direction until the damage goes zero."
     },
     {
@@ -680,7 +680,7 @@
         "maxlvl": 8,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Build an orb that is made up of soul using your mana. An orb will have have lives depending on skill level. Up to 3 orbs can be built but destroys orbs that are farther than 8 cells from the current orb to build."
     },
     {
@@ -692,7 +692,7 @@
         "maxlvl": 1,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Reverts all orbs back to mana.\\n\\nIf you used this inside the triangle you have formed, you recall all materia instead. After the recall process, upon using this skill again you instead summon all materia back to it's original position."
     },
     {
@@ -704,7 +704,7 @@
         "maxlvl": 4,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Enables attack to bounce back and deal double damage. Can only be used if the target enemy have soul orb behind him/her (within 6 cells) along the direction of attack. Consumes 1 life of the soul orb that rebounded your arrow."
     },
     {
@@ -716,7 +716,7 @@
         "maxlvl": 4,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Enables single attack to became two. Can only be used if the target enemy have soul orb in front of him/her (within 6 cells) along the direction of attack. Consumes 1 life of the soul orb that splitted your arrow."
     },
     {
@@ -728,7 +728,7 @@
         "maxlvl": 6,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Uses your great dexterity, hidden strength and soul orbs to push back enemy for a very long distance upon his/her next move. Can only be used if you are surrounded by 3 soul orbs.\\n\\nConsumes 1 lives of each orbs to succesfully push back enemy upon doing an attack. You will receive the damage as full and no-miss but the enemy will receive a massive strike no-miss damage that pushes him/her back too far away. Damage depends on your Strength attribute."
     },
     {
@@ -740,7 +740,7 @@
         "maxlvl": 6,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Orders your soul orbs to strike magical damage to all enemies inside the triangle it has formed. Requires you to have at least 2 lives on each orbs. Consumes 2 lives of each orbs. The enemies will be immobilized.\\n\\nMateria will recharge after 8 seconds before you can use it again."
     },
     {
@@ -752,7 +752,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 2,
-        "classreqlbl": "Ranger",
+        "classreqlvl": "Ranger",
         "desc": "Strikes magical damage to enemy with the help of your soul orbs and your mana. Can only be used if the target enemy is surrounded by 3 soul orbs you have built and have at least 2 lives on each orbs. Consumes 2 lives of each orbs to succeed on the attack. You can't use any skill for 2 seconds because of sudden soul fatigue."
     },
     {
@@ -764,7 +764,7 @@
         "maxlvl": 1,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Most basic skill that inflicts damage to enemies soul."
     },
     {
@@ -776,7 +776,7 @@
         "maxlvl": 16,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increase your wisdom attribute, mana gauge and regeneration.\\n\\nYou regenerate more mana depending on how many non-deacon partymates around you within 4 cells.\\n\\nRegeneration also increases depending on how many endangered (50% life) non-deacon partymates. The effect of mana regeneration of this skill is constant regardless if you're sitting or not."
     },
     {
@@ -788,7 +788,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Simple prayer that restores small HP of the target yet damage undead enemies. The healing effect depends on your Wisdom attribute."
     },
     {
@@ -800,7 +800,7 @@
         "maxlvl": 1,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Restores a smaller amount of target's HP yet damage an undead."
     },
     {
@@ -812,7 +812,7 @@
         "maxlvl": 1,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Warps to other map. When you're not moving, it will randomly warps you to any part of the map you're currently at. If you used this skill while moving, it will warp you to the nearest neighbor map along the direction of walking path.\\n\\nCannot be used in some restricted maps."
     },
     {
@@ -824,7 +824,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increases the attack damage of the target for 2 minutes"
     },
     {
@@ -836,7 +836,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increases the defense of the target for 2 minutes"
     },
     {
@@ -848,7 +848,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increases the accuracy and minimum attack damage of the target for 2 minutes"
     },
     {
@@ -860,7 +860,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increases the attack speed of the target for 2 minutes"
     },
     {
@@ -872,7 +872,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increases the magical power of the target for 2 minutes. Heal skill is also affected by this skill."
     },
     {
@@ -884,7 +884,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increases the magic defense of the target for 2 minutes"
     },
     {
@@ -896,7 +896,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increases the dodge of the target for 2 minutes"
     },
     {
@@ -908,7 +908,7 @@
         "maxlvl": 10,
         "secondclass": 0,
         "classreq": 3,
-        "classreqlbl": "Deacon",
+        "classreqlvl": "Deacon",
         "desc": "Increases the critical rate of the target for 2 minutes"
     },
     {
@@ -920,7 +920,7 @@
         "maxlvl": 4,
         "secondclass": 1,
         "classreq": 3,
-        "classreqlbl": "Cleric",
+        "classreqlvl": "Cleric",
         "desc": "Powerful heal that restores great amount of HP. 200% Heal effect.\\n\\nAlso improves wisdom, mana gauge and mana regeneration passively."
     },
     {
@@ -932,7 +932,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 3,
-        "classreqlbl": "Cleric",
+        "classreqlvl": "Cleric",
         "desc": "Heals every target within 3 cells yet damages undeads. Healing power is the similar to Heal skill."
     },
     {
@@ -944,7 +944,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 3,
-        "classreqlbl": "Cleric",
+        "classreqlvl": "Cleric",
         "desc": "Creates a temporary barrier and endure on the target.\\n\\nBarrier's life depends on your wisdom attribute and is similar to the formula of Healing power of Heal skill. Barrier expires after 2 minutes or until it's life goes beyond zero.\\n\\nThe barrier's life would not exceed to 50% of the target's max life and also doesn't stack up."
     },
     {
@@ -956,7 +956,7 @@
         "maxlvl": 5,
         "secondclass": 1,
         "classreq": 3,
-        "classreqlbl": "Cleric",
+        "classreqlvl": "Cleric",
         "desc": "Prayer that allows all visible party members to regenerate mana faster than usual.\\n\\nDoubles up natural and foritude-based mana regeneration points but not the effect of Open Chakra of Deacons and Rejuvinating Clash of Archers."
     },
     {
@@ -968,7 +968,7 @@
         "maxlvl": 8,
         "secondclass": 1,
         "classreq": 3,
-        "classreqlbl": "Cleric",
+        "classreqlvl": "Cleric",
         "desc": "Revive a fallen playing character.\\n\\nRestores target's EXP penalty upon death (to party mates only).\\n\\nCannot be used during Guild War."
     },
     {
@@ -980,7 +980,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 3,
-        "classreqlbl": "Cleric",
+        "classreqlvl": "Cleric",
         "desc": "Uses your mana as your life for 60 secs or until mana is less than 12.5%"
     },
     {
@@ -992,7 +992,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 3,
-        "classreqlbl": "Cleric",
+        "classreqlvl": "Cleric",
         "desc": "Next damage inflicted to the target will be much painful after using this technic. Consecutive damages are doubled until the life punishment runs out. Does not work with magic attacks, but works when healing the undeads. Each damage decreases life punishment by equal to the damage dealt.\\n\\nIf life punishment is 500 and the next damage is 200, the next damage will be 400 instead but the life punishment decreases to 300."
     },
     {
@@ -1004,7 +1004,7 @@
         "maxlvl": 10,
         "secondclass": 1,
         "classreq": 3,
-        "classreqlbl": "Cleric",
+        "classreqlvl": "Cleric",
         "desc": "Summons the cicle of fate that heats up damage within the circle range.\\n\\nGives accuracy, defense and critical penalty to affected enemies for 10 seconds by striking a very bright circle. Inflicts damage depending on your current mana.\\n\\nThe Circle of Fate lasts for fixed 3 seconds. During the circle's life, your spirit is submitted to the God of Fortitude which renders you temporarily unusable.\\n\\nDamage will be half against non-undead enemies."
     }
 ]

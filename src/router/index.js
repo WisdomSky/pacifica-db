@@ -1,51 +1,29 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import Items from '../views/Items.vue'
-import Classes from '../views/Classes.vue'
-import Gallery from '../views/Gallery.vue'
-import Music from '../views/Music.vue'
 
-Vue.use(VueRouter)
+let pages = require.context('../views/', false, /\.vue/);
+
+let page_routes = pages.keys().map(page => {
+  let name = page.replace(/^\.\/(.*)\.vue$/, '$1');
+  return {
+      name,
+      path: '/' + (name === 'Index' ?'': name.toLowerCase()),
+      component() {
+        return import(`../views/${name}.vue`);
+      }
+  }
+});
+
+
+Vue.use(VueRouter);
 
   const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/items',
-    name: 'Items',
-    component: Items
-  },
-  {
-    path: '/classes',
-    name: 'Classes',
-    component: Classes
-  },
-  {
-    path: '/gallery',
-    name: 'Gallery',
-    component: Gallery
-  },
-  {
-    path: '/music',
-    name: 'Music',
-    component: Music
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
-]
+      ...page_routes,
+
+];
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   base: process.env.BASE_URL,
   routes
 })

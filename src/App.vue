@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="app">
         <div class="navbar-container">
             <b-navbar class="navbar" toggleable="lg" type="dark" variant="default">
                 <router-link class="navbar-brand" to="/">
@@ -13,7 +13,7 @@
                     <!-- Right aligned nav items -->
                     <b-navbar-nav class="ml-auto">
 
-                        <router-link to="/" v-slot="{ href, navigate }">
+                        <router-link to="/guides" v-slot="{ href, navigate }">
                             <b-nav-item :href="href" @click="navigate">Guides</b-nav-item>
                         </router-link>
 
@@ -28,8 +28,13 @@
                                 <b-dropdown-item :href="href" @click="navigate">Classes</b-dropdown-item>
                             </router-link>
 
-                            <b-dropdown-item href="#">Quests</b-dropdown-item>
-                            <b-dropdown-item href="#">Monsters</b-dropdown-item>
+                            <router-link to="/quests" v-slot="{ href, navigate }">
+                                <b-dropdown-item :href="href" @click="navigate">Quests</b-dropdown-item>
+                            </router-link>
+                            <router-link to="/monsters" v-slot="{ href, navigate }">
+                                <b-dropdown-item :href="href" @click="navigate">Monsters</b-dropdown-item>
+                            </router-link>
+
                         </b-nav-item-dropdown>
 
                         <router-link to="/gallery" v-slot="{ href, navigate }">
@@ -41,9 +46,6 @@
                             <b-nav-item :href="href" @click="navigate">Music</b-nav-item>
                         </router-link>
 
-                        <router-link to="/" v-slot="{ href, navigate }">
-                            <b-nav-item :href="href" @click="navigate">About</b-nav-item>
-                        </router-link>
 
 
                     </b-navbar-nav>
@@ -71,6 +73,11 @@
 </script>
 
 <style lang="scss" scoped>
+
+    #app {
+        min-height: 100%;
+    }
+
     .navbar-container {
         background-color: rgba(47, 199, 226, 1);
         text-align: center;

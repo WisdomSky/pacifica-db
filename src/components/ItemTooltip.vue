@@ -33,12 +33,12 @@
                                     item.price }}
                                 </div>
                                 <div class="d-inline-block" style="margin-left: 10px">Weight: {{
-                                    item.lvlreq }}
+                                    item.weight }}
                                 </div>
                             </div>
                             <div>Sell Price: P{{ Math.floor(item.price / 2) }}</div>
                             <div>Req'd Class: {{ item.classreq || 'General' }}</div>
-                            <div>Required Level: {{ item.weight || '0' }}</div>
+                            <div>Required Level: {{ item.lvlreq || '0' }}</div>
                         </b-col>
                     </b-row>
                     <b-row no-gutters>

@@ -4,7 +4,7 @@
 
     <p class="mb-5">There are four classes to choose from in Pacifica online.</p>
 
-    <b-container class="pt-5">
+    <b-container>
       <b-row>
           <b-col :cols="6" :md="3" class="text-center">
             <div>
@@ -39,7 +39,7 @@
             </div>
           </b-col>
       </b-row>
-      <b-row class="mt-5">
+      <b-row class="mt-2">
         <b-col class="text-center text-info">
             Select a class you're interested to know more...
         </b-col>

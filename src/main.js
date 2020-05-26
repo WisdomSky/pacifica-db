@@ -15,7 +15,15 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
+import VuePackeryPlugin from 'vue-packery-plugin'
 
+Vue.use(VuePackeryPlugin)
+
+import VueAplayer from 'vue-aplayer';
+Vue.component('VueAplayer', VueAplayer);
+
+import VueGallery from 'vue-gallery';
+Vue.component('VueGallery', VueGallery);
 
 import {VueMasonryPlugin} from 'vue-masonry';
 Vue.use(VueMasonryPlugin)

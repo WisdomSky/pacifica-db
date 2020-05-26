@@ -24,9 +24,9 @@ exports.fetch = function () {
             items.push({
                            name: row[0],
                            type: row[1],
-                           lvlreq: row[2],
+                           weight: row[2],
                            price: row[3],
-                           weight: row[4],
+                           lvlreq: row[4],
                            unknownCol: row[5],
                            unknownCol2: row[6],
                            classreq: classes[row[7]],

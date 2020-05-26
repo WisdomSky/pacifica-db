@@ -42,7 +42,7 @@ exports.fetch = function () {
                             maxlvl: row[5],
                             secondclass: row[6],
                             classreq: row[7],
-                            classreqlbl: classes[row[7] + (row[6] ? 4: 0)],
+                            classreqlvl: classes[row[7] + (row[6] ? 4: 0)],
                             desc: row[8]
                         });
 
