@@ -1,89 +1,145 @@
 <template>
     <page-container>
         <h3 class="mb-4">Items Database </h3>
-        <div class="mb-2">WARNING! Currently running in <u class="text-danger">(Edit Mode)</u>!</div>
 
-        <b-button-group size="sm" class="mb-3">
-            <b-button variant="info" :class="{active: categorized}" @click="categorized = true">Categorized</b-button>
-            <b-button variant="danger" :class="{active: !categorized}"  @click="categorized = false">Not categorized</b-button>
-        </b-button-group>
-
-        <div v-masonry transition-duration="0" item-selector=".item" class="masonry-container">
-            <div v-masonry-tile class="item" :key="item.hash" v-for="(item, index) in items" v-if="categorized" :class="{approval: item.approval}">
-                <img :id="`item-${item.hash}`" :src="getItemImgByName(item.name)">
-                <item-tooltip :target="`item-${item.hash}`" :name="item.name" @submit="saveItemName"></item-tooltip>
-            </div>
-            <div v-masonry-tile class="item" :key="id" v-for="id in items" v-if="!categorized">
-                <img :id="`item-${id}`" :src="getItemImgById(id)">
-                <item-tooltip :target="`item-${id}`" :id="id" :edit-mode="true" @submit="saveItemName"></item-tooltip>
-            </div>
-
+        <div class="mb-2">
+            <b-input placeholder="Search for an item... e.g Crab Helm" v-model="query"></b-input>
         </div>
 
-        <div class="text-center mt-4">
-            <b-pagination-nav class="d-inline-flex" variant="info" :link-gen="linkGen"
-                              :number-of-pages="Math.ceil((categorized ? itemsfiltered.length : uncategorizedlist.length) / perpage)"
-                              use-router></b-pagination-nav>
-        </div>
+        <b-table
+                :fields="fields"
+                :items="filtered"
+                :per-page="perPage"
+                :current-page="currentPage"
+                :sort-by.sync="sortBy"
+                :sort-desc.sync="sortDesc"
+        >
+            <template v-slot:cell(name)="data">
+                <!-- `data.value` is the value after formatted by the Formatter -->
+
+                <div class="d-inline-block item-container" :id="`item-${data.item.hash}`">
+                    <div class="item">
+                        <img :id="`item-${data.item.hash}`" :src="getItemImg(data.item)">
+                    </div>
+                    <a :href="`#${data.value.replace(/[^a-z]+/i,'-').toLowerCase()}`">{{ data.value }}</a>
+                </div>
+                <item-tooltip
+                        :target="`item-${data.item.hash}`"
+                        :name="data.item.name"
+                ></item-tooltip>
+            </template>
+        </b-table>
+        <b-pagination-nav :link-gen="linkGen" :number-of-pages="Math.ceil(filtered.length / perPage)"
+                          use-router></b-pagination-nav>
+
 
     </page-container>
 </template>
 
 <script>
 
-    import ids from '../assets/items.files'
-
-    import moment from 'moment-timezone'
-    import _ from 'lodash'
-
     export default {
         data() {
             return {
-                perpage    : 100,
-                user       : "",
+                perPage    : 25,
+                sortBy     : "",
+                sortDesc   : false,
+                query      : "",
                 categorized: true,
-                db         : fbapp.database()
+                db         : fbapp.database(),
+                dorks      : [
+                    {
+                        key: 'name'
+                    },
+                    {
+                        key: 'type',
+                    },
+                    {
+                        key: 'class'
+                    },
+                ],
+                fields     : [
+
+                    {
+                        key     : 'name',
+                        label   : 'Name',
+                        sortable: true
+                    },
+                    {
+                        key     : 'lvlreq',
+                        label   : 'Level',
+                        sortable: true
+                    },
+                    {
+                        key     : 'type',
+                        sortable: true
+                    },
+                    {
+                        // A regular column with custom formatter
+                        key      : 'classreq',
+                        sortable : true,
+                        label    : 'Class',
+                        formatter: value => {
+                            return value || 'All'
+                        }
+                    },
+                ],
             }
         },
-        watch: {
-            categorized() {
-                this.$router.push({
-                    query: {
-                        page: undefined
-                    }
-                 })
+        watch   : {
+            query() {
+                try {
+                    this.$router.replace({
+                         query: {
+                             page: undefined
+                         }
+                     })
+                } catch (e) {
+
+                }
             }
         },
         computed: {
-            itemslist() {
-                return this.$store.state.items
-            },
-            itemsfiltered() {
-                return this.itemslist.filter(item => item.id);
-            },
-            items() {
-                let pointer = (this.currentpage - 1) * this.perpage;
-                if (this.categorized) {
-                    return this.itemsfiltered.slice(pointer, pointer + 100);
-                } else {
-                    return this.uncategorizedlist.slice(pointer, pointer + 100);
-                }
-            },
-            currentpage() {
+            currentPage() {
                 return this.$route.query.page || 1;
             },
-            uncategorizedlist() {
-                let categorizedids = this.itemsfiltered.map(item => item.id);
-                let uncategorizedids = _.difference(ids, categorizedids);
+            items() {
+                return this.$store.state.items
+            },
+            filtered() {
 
-                let images = require.context('../assets/items', false, /\.png$/);
+                let query = this.query;
 
-                return uncategorizedids.filter(id => images.keys().indexOf(`./${id}.png`) !== -1);
+                let dorks = this.dorks.map(dork => dork.key);
+
+
+                if (query.indexOf(":") !== -1) {
+                    let regex = new RegExp(`((?:${dorks.join('|')}):(?:(?!${dorks.join('|')}).)+)`, "g");
+
+                    let match;
+
+                    if (match = this.query.match(regex)) {
+                        query = match.reduce((obj, val) => {
+                            let [k, v] = val.split(":", 2);
+                            obj[k] = v;
+                            return obj
+                        }, {});
+
+                    }
+
+                }
+
+
+                console.log(query)
+
+                return this.items.filter(item => {
+                    return JSON.stringify(item).toLowerCase().indexOf(query.toLowerCase()) !== -1;
+                })
             }
         },
         mounted() {
 
-            this.user = prompt("Please enter your name");
+            // this.user = prompt("Please enter your name");
 
             this.db.ref('/items').on('value', (snapshot) => {
                 let entries = snapshot.val();
@@ -98,7 +154,11 @@
                                 break;
                             case 'object':
                                 let sent_entries = Object.values(name);
-                                this.$store.commit('mapItem', {name: sent_entries[sent_entries.length-1].name, id, approval: true});
+                                this.$store.commit('mapItem', {
+                                    name    : sent_entries[sent_entries.length - 1].name,
+                                    id,
+                                    approval: true
+                                });
                                 break;
                         }
 
@@ -114,37 +174,16 @@
             this.db.ref('/items').off('value');
         },
         methods : {
-            getItemImgByName(name) {
+            getItemImg(item) {
 
-                let item = _.find(this.itemslist,  ['name', name]);
                 let images = require.context('../assets/items', false, /\.png$/);
 
-                if (item.type === 'ed') {
+                if (item.type === 'Daemon') {
                     return require('../assets/items/161.png')
                 } else if (item.id && images.keys().indexOf(`./${item.id}.png`) !== -1) {
                     return images('./' + item.id + ".png")
                 } else {
                     return require('../assets/noimg.png')
-                }
-            },
-            getItemImgById(id) {
-
-                let images = require.context('../assets/items', false, /\.png$/);
-
-                return images('./' + id + ".png")
-            },
-            saveItemName(event) {
-
-                if (this.user === 'wisdomsky') {
-                    this.db.ref('items/' + event.id).set(event.name);
-                } else {
-
-                    this.db.ref('items/' + event.id).push({
-                                                          name: event.name,
-                                                          user: this.user,
-                                                          date: moment.utc().format('YYYY-MM-DD HH:mm:ss')
-                                                      });
-                    alert('Thank you for your contribution! :)')
                 }
             },
             linkGen(pageNum) {
@@ -155,81 +194,50 @@
 </script>
 
 <style lang="scss" scoped>
-    .item {
-        margin: 8px;
-        box-sizing: border-box;
 
-        &.approval {
-            /*border: 3px #f22 solid;*/
-            /*border: 1px solid #f00;*/
-            box-shadow: 0 0 0px 2px #f22;
-        }
 
-        &.value-approved {
-            border: 0;
-            opacity: 1;
-        }
+    .item-container {
 
-        img {
-            height: 40px;
-            width: 40px;
-        }
+        .item {
+            background-color: #222;
+            border-radius: 5px;
+            border: 2px solid #777;
+            display: inline-block;
+            padding: 2px;
+            margin-right: 10px;
+            box-sizing: border-box;
 
-        &:hover {
-            background-color: #ff2;
-            box-shadow: 0 0 20px 20px #ff2;
-            border-radius: 90%;
+            &.approval {
+                /*border: 3px #f22 solid;*/
+                /*border: 1px solid #f00;*/
+                box-shadow: 0 0 0px 2px #f22;
+            }
+
+            &.value-approved {
+                border: 0;
+                opacity: 1;
+            }
 
             img {
-                transform: scale(2);
+                height: 30px;
+                width: 30px;
             }
 
         }
 
-    }
+        &:hover {
 
-    .item-info {
-        margin: 0;
-        padding: 0;
-        min-width: 300px;
+            .item {
 
-        .item-name {
-            text-align: left;
-            color: rgb(255, 255, 8);
-            font-weight: bold;
-            background-color: rgb(28, 28, 28);
-            margin-bottom: 2px;
-            padding-left: 5px;
-        }
+                background-color: #ff2;
+                box-shadow: 0 0 20px 20px #ff2;
+                border-color: transparent;
 
-        .item-img {
-            border: 3px solid rgb(28, 28, 28);
-            border-radius: 5px;
-            margin-left: 2px;
-        }
+                img {
+                    transform: scale(1.5);
+                }
 
-        .item-stat {
-            border: 3px solid rgb(28, 28, 28);
-            border-radius: 5px;
-            text-align: left;
-            font-size: 11px;
-            padding-left: 5px;
-            margin-left: 2px;
-            margin-right: 2px;
-        }
-
-        .item-desc div {
-            border: 3px solid rgb(84, 64, 16);
-            font-size: 11px;
-            border-radius: 5px;
-            margin-left: 4px;
-            margin-right: 6px;
-            margin-top: 2px;
-            padding: 5px 3px;
-            text-align: left;
-        }
-
-        & ::v-deep .row {
+            }
 
         }
 

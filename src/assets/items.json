@@ -1,7 +1,7 @@
 [
     {
         "name": "Rusty sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 1,
         "lvlreq": 0,
@@ -14,10 +14,10 @@
     },
     {
         "name": "Old sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 150,
-        "lvlreq": 6,
+        "lvlrlvlreqeq": 6,
         "unknownCol": 0,
         "unknownCol2": 0,
         "classreq": "Swordsman",
@@ -27,7 +27,7 @@
     },
     {
         "name": "Hunting sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 8,
         "price": 300,
         "lvlreq": 11,
@@ -40,7 +40,7 @@
     },
     {
         "name": "Sharp sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 8,
         "price": 1500,
         "lvlreq": 18,
@@ -53,7 +53,7 @@
     },
     {
         "name": "Light sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 10,
         "price": 3000,
         "lvlreq": 24,
@@ -66,7 +66,7 @@
     },
     {
         "name": "Medium sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 15,
         "price": 7000,
         "lvlreq": 30,
@@ -79,7 +79,7 @@
     },
     {
         "name": "Long sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 20,
         "price": 12000,
         "lvlreq": 38,
@@ -92,7 +92,7 @@
     },
     {
         "name": "Broad sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 30,
         "price": 18000,
         "lvlreq": 45,
@@ -105,7 +105,7 @@
     },
     {
         "name": "Rusty knife",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 4,
         "price": 1,
         "lvlreq": 0,
@@ -118,7 +118,7 @@
     },
     {
         "name": "Old knife",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 4,
         "price": 150,
         "lvlreq": 6,
@@ -131,7 +131,7 @@
     },
     {
         "name": "Kitchen knife",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 300,
         "lvlreq": 11,
@@ -144,7 +144,7 @@
     },
     {
         "name": "Hunting knife",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 1500,
         "lvlreq": 18,
@@ -157,7 +157,7 @@
     },
     {
         "name": "Sharp knife",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 8,
         "price": 3000,
         "lvlreq": 24,
@@ -170,7 +170,7 @@
     },
     {
         "name": "Dagger",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 10,
         "price": 7000,
         "lvlreq": 30,
@@ -183,7 +183,7 @@
     },
     {
         "name": "Sharp dagger",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 14,
         "price": 12000,
         "lvlreq": 38,
@@ -196,7 +196,7 @@
     },
     {
         "name": "Riot dagger",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 15,
         "price": 18000,
         "lvlreq": 45,
@@ -209,7 +209,7 @@
     },
     {
         "name": "Twig bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 1,
         "lvlreq": 0,
@@ -222,7 +222,7 @@
     },
     {
         "name": "Old bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 150,
         "lvlreq": 6,
@@ -235,7 +235,7 @@
     },
     {
         "name": "Self bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 8,
         "price": 300,
         "lvlreq": 11,
@@ -248,7 +248,7 @@
     },
     {
         "name": "Flat bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 8,
         "price": 1500,
         "lvlreq": 18,
@@ -261,7 +261,7 @@
     },
     {
         "name": "Survival bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 10,
         "price": 3000,
         "lvlreq": 24,
@@ -274,7 +274,7 @@
     },
     {
         "name": "Hunting bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 15,
         "price": 7000,
         "lvlreq": 30,
@@ -287,7 +287,7 @@
     },
     {
         "name": "Long bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 18,
         "price": 12000,
         "lvlreq": 38,
@@ -300,7 +300,7 @@
     },
     {
         "name": "Composite bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 22,
         "price": 18000,
         "lvlreq": 45,
@@ -313,7 +313,7 @@
     },
     {
         "name": "Stick",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 4,
         "price": 1,
         "lvlreq": 0,
@@ -326,7 +326,7 @@
     },
     {
         "name": "Old staff",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 4,
         "price": 150,
         "lvlreq": 6,
@@ -339,7 +339,7 @@
     },
     {
         "name": "Staff",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 300,
         "lvlreq": 11,
@@ -352,7 +352,7 @@
     },
     {
         "name": "Straight staff",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 1500,
         "lvlreq": 18,
@@ -365,7 +365,7 @@
     },
     {
         "name": "Timber staff",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 8,
         "price": 3000,
         "lvlreq": 24,
@@ -378,7 +378,7 @@
     },
     {
         "name": "Wooden rod",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 10,
         "price": 7000,
         "lvlreq": 30,
@@ -391,7 +391,7 @@
     },
     {
         "name": "Metal rod",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 14,
         "price": 12000,
         "lvlreq": 38,
@@ -404,7 +404,7 @@
     },
     {
         "name": "Silver rod",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 15,
         "price": 18000,
         "lvlreq": 45,
@@ -417,7 +417,7 @@
     },
     {
         "name": "Wooden armor",
-        "type": "ea",
+        "type": "Armor",
         "weight": 8,
         "price": 8000,
         "lvlreq": 25,
@@ -430,7 +430,7 @@
     },
     {
         "name": "Timber armor",
-        "type": "ea",
+        "type": "Armor",
         "weight": 12,
         "price": 12000,
         "lvlreq": 35,
@@ -443,7 +443,7 @@
     },
     {
         "name": "Metal armor",
-        "type": "ea",
+        "type": "Armor",
         "weight": 18,
         "price": 16000,
         "lvlreq": 45,
@@ -456,7 +456,7 @@
     },
     {
         "name": "Sweater",
-        "type": "ea",
+        "type": "Armor",
         "weight": 5,
         "price": 8000,
         "lvlreq": 25,
@@ -469,7 +469,7 @@
     },
     {
         "name": "Jacket",
-        "type": "ea",
+        "type": "Armor",
         "weight": 6,
         "price": 12000,
         "lvlreq": 35,
@@ -482,7 +482,7 @@
     },
     {
         "name": "Fur jacket",
-        "type": "ea",
+        "type": "Armor",
         "weight": 7,
         "price": 16000,
         "lvlreq": 45,
@@ -495,7 +495,7 @@
     },
     {
         "name": "Wooden plate",
-        "type": "ea",
+        "type": "Armor",
         "weight": 7,
         "price": 8000,
         "lvlreq": 25,
@@ -508,7 +508,7 @@
     },
     {
         "name": "Timber plate",
-        "type": "ea",
+        "type": "Armor",
         "weight": 10,
         "price": 12000,
         "lvlreq": 35,
@@ -521,7 +521,7 @@
     },
     {
         "name": "Metal plate",
-        "type": "ea",
+        "type": "Armor",
         "weight": 14,
         "price": 16000,
         "lvlreq": 45,
@@ -534,7 +534,7 @@
     },
     {
         "name": "Clerical shirt",
-        "type": "ea",
+        "type": "Armor",
         "weight": 4,
         "price": 5000,
         "lvlreq": 25,
@@ -547,7 +547,7 @@
     },
     {
         "name": "Clerical robe",
-        "type": "ea",
+        "type": "Armor",
         "weight": 5,
         "price": 9000,
         "lvlreq": 35,
@@ -560,7 +560,7 @@
     },
     {
         "name": "Clerical jacket",
-        "type": "ea",
+        "type": "Armor",
         "weight": 6,
         "price": 13000,
         "lvlreq": 45,
@@ -573,7 +573,7 @@
     },
     {
         "name": "Live leaf",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 15,
         "lvlreq": 0,
@@ -582,7 +582,7 @@
     },
     {
         "name": "Blue tear stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 45,
         "lvlreq": 0,
@@ -591,7 +591,7 @@
     },
     {
         "name": "Halo-halo",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -603,7 +603,7 @@
     },
     {
         "name": "Potato",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 30,
         "lvlreq": 0,
@@ -615,7 +615,7 @@
     },
     {
         "name": "Pink tail",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 24,
         "lvlreq": 0,
@@ -624,7 +624,7 @@
     },
     {
         "name": "Cheese",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 36,
         "lvlreq": 0,
@@ -636,7 +636,7 @@
     },
     {
         "name": "Pink gel",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 39,
         "lvlreq": 0,
@@ -645,7 +645,7 @@
     },
     {
         "name": "Pink jelly",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 40,
         "lvlreq": 0,
@@ -657,7 +657,7 @@
     },
     {
         "name": "Green antenna",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 12,
         "lvlreq": 0,
@@ -666,7 +666,7 @@
     },
     {
         "name": "Silk",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 36,
         "lvlreq": 0,
@@ -675,7 +675,7 @@
     },
     {
         "name": "Purple skin",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 48,
         "lvlreq": 0,
@@ -684,7 +684,7 @@
     },
     {
         "name": "Long grass",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 90,
         "lvlreq": 0,
@@ -693,7 +693,7 @@
     },
     {
         "name": "Purple onion",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 30,
         "lvlreq": 0,
@@ -702,7 +702,7 @@
     },
     {
         "name": "Blue skin",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 30,
         "lvlreq": 0,
@@ -711,7 +711,7 @@
     },
     {
         "name": "Blue stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 75,
         "lvlreq": 0,
@@ -720,7 +720,7 @@
     },
     {
         "name": "Blue meat",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 30,
         "lvlreq": 0,
@@ -732,7 +732,7 @@
     },
     {
         "name": "Tiny life potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 30,
         "lvlreq": 0,
@@ -744,7 +744,7 @@
     },
     {
         "name": "Small life potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 60,
         "lvlreq": 0,
@@ -756,7 +756,7 @@
     },
     {
         "name": "Medium life potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 4,
         "price": 120,
         "lvlreq": 0,
@@ -768,7 +768,7 @@
     },
     {
         "name": "Large life potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 5,
         "price": 240,
         "lvlreq": 0,
@@ -780,7 +780,7 @@
     },
     {
         "name": "Blue gel",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 51,
         "lvlreq": 0,
@@ -789,7 +789,7 @@
     },
     {
         "name": "Blue jelly",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 50,
         "lvlreq": 0,
@@ -801,7 +801,7 @@
     },
     {
         "name": "Crab clip",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 24,
         "lvlreq": 0,
@@ -810,7 +810,7 @@
     },
     {
         "name": "Crab shell",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 42,
         "lvlreq": 0,
@@ -819,7 +819,7 @@
     },
     {
         "name": "Crab meat",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 50,
         "lvlreq": 0,
@@ -831,7 +831,7 @@
     },
     {
         "name": "Blue beetle scale",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 45,
         "lvlreq": 0,
@@ -840,7 +840,7 @@
     },
     {
         "name": "Blue web foot",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 30,
         "lvlreq": 0,
@@ -849,7 +849,7 @@
     },
     {
         "name": "Shiny blue skin",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 45,
         "lvlreq": 0,
@@ -858,7 +858,7 @@
     },
     {
         "name": "Yellow onion",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 90,
         "lvlreq": 0,
@@ -867,7 +867,7 @@
     },
     {
         "name": "Pink fur",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 36,
         "lvlreq": 0,
@@ -876,7 +876,7 @@
     },
     {
         "name": "Sting",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 18,
         "lvlreq": 0,
@@ -885,7 +885,7 @@
     },
     {
         "name": "Aquamarine",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 1500,
         "lvlreq": 0,
@@ -894,7 +894,7 @@
     },
     {
         "name": "Pearl",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 1500,
         "lvlreq": 0,
@@ -903,7 +903,7 @@
     },
     {
         "name": "Purple meat",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 30,
         "lvlreq": 0,
@@ -915,7 +915,7 @@
     },
     {
         "name": "Purple stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -924,7 +924,7 @@
     },
     {
         "name": "Blue frog wings",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 60,
         "lvlreq": 0,
@@ -933,7 +933,7 @@
     },
     {
         "name": "Warp-back orb",
-        "type": "c",
+        "type": "Consumable",
         "weight": 8,
         "price": 100,
         "lvlreq": 0,
@@ -945,7 +945,7 @@
     },
     {
         "name": "Rabbit ears",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 105,
         "lvlreq": 0,
@@ -954,7 +954,7 @@
     },
     {
         "name": "Dark leaf",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 45,
         "lvlreq": 0,
@@ -963,7 +963,7 @@
     },
     {
         "name": "Red beetle scale",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 90,
         "lvlreq": 0,
@@ -972,7 +972,7 @@
     },
     {
         "name": "Red stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 105,
         "lvlreq": 0,
@@ -981,7 +981,7 @@
     },
     {
         "name": "Yellow flower",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 120,
         "lvlreq": 0,
@@ -990,7 +990,7 @@
     },
     {
         "name": "Honey",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 70,
         "lvlreq": 0,
@@ -1002,7 +1002,7 @@
     },
     {
         "name": "Dark stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 150,
         "lvlreq": 0,
@@ -1011,7 +1011,7 @@
     },
     {
         "name": "Sando",
-        "type": "ea",
+        "type": "Armor",
         "weight": 2,
         "price": 100,
         "lvlreq": 10,
@@ -1023,7 +1023,7 @@
     },
     {
         "name": "Shirt",
-        "type": "ea",
+        "type": "Armor",
         "weight": 2,
         "price": 200,
         "lvlreq": 15,
@@ -1035,7 +1035,7 @@
     },
     {
         "name": "Wood protector",
-        "type": "ea",
+        "type": "Armor",
         "weight": 4,
         "price": 300,
         "lvlreq": 20,
@@ -1047,7 +1047,7 @@
     },
     {
         "name": "Cotton gloves",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 1,
         "price": 500,
         "lvlreq": 10,
@@ -1059,7 +1059,7 @@
     },
     {
         "name": "Leather gloves",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 800,
         "lvlreq": 22,
@@ -1071,7 +1071,7 @@
     },
     {
         "name": "Great leather gloves",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 1200,
         "lvlreq": 35,
@@ -1083,7 +1083,7 @@
     },
     {
         "name": "Wooden slippers",
-        "type": "ef",
+        "type": "Footwear",
         "weight": 3,
         "price": 300,
         "lvlreq": 14,
@@ -1095,7 +1095,7 @@
     },
     {
         "name": "Rubber slippers",
-        "type": "ef",
+        "type": "Footwear",
         "weight": 3,
         "price": 1200,
         "lvlreq": 25,
@@ -1107,7 +1107,7 @@
     },
     {
         "name": "Shoes",
-        "type": "ef",
+        "type": "Footwear",
         "weight": 3,
         "price": 2000,
         "lvlreq": 36,
@@ -1119,7 +1119,7 @@
     },
     {
         "name": "Leaf hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 1000,
         "lvlreq": 0,
@@ -1131,7 +1131,7 @@
     },
     {
         "name": "Crab helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -1143,7 +1143,7 @@
     },
     {
         "name": "Potato helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -1155,7 +1155,7 @@
     },
     {
         "name": "Camper's cap",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 2000,
         "lvlreq": 0,
@@ -1167,7 +1167,7 @@
     },
     {
         "name": "Purple crab helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -1179,7 +1179,7 @@
     },
     {
         "name": "Zombie crab helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -1191,7 +1191,7 @@
     },
     {
         "name": "Banana peel hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 600,
         "lvlreq": 0,
@@ -1203,7 +1203,7 @@
     },
     {
         "name": "Jelly hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -1215,7 +1215,7 @@
     },
     {
         "name": "Purple jelly hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -1227,7 +1227,7 @@
     },
     {
         "name": "Zombie jelly hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -1239,7 +1239,7 @@
     },
     {
         "name": "Stinger helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -1251,7 +1251,7 @@
     },
     {
         "name": "Student's hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 3500,
         "lvlreq": 0,
@@ -1263,7 +1263,7 @@
     },
     {
         "name": "Leaf crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -1275,7 +1275,7 @@
     },
     {
         "name": "Onion clip",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 1,
         "lvlreq": 0,
@@ -1287,7 +1287,7 @@
     },
     {
         "name": "Butterfly clip",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 250,
         "lvlreq": 0,
@@ -1299,7 +1299,7 @@
     },
     {
         "name": "Apprentice cap",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 2000,
         "lvlreq": 0,
@@ -1311,7 +1311,7 @@
     },
     {
         "name": "Reborn orb",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -1323,7 +1323,7 @@
     },
     {
         "name": "Yellow stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 180,
         "lvlreq": 0,
@@ -1332,7 +1332,7 @@
     },
     {
         "name": "Porcupine skin",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 150,
         "lvlreq": 0,
@@ -1341,7 +1341,7 @@
     },
     {
         "name": "Nexus Armor",
-        "type": "ea",
+        "type": "Armor",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -1353,7 +1353,7 @@
     },
     {
         "name": "Free life potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -1365,7 +1365,7 @@
     },
     {
         "name": "Free mana potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -1377,7 +1377,7 @@
     },
     {
         "name": "Monster's Item",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 2,
         "lvlreq": 0,
@@ -1386,7 +1386,7 @@
     },
     {
         "name": "Tiny life potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 1,
         "price": 1,
         "lvlreq": 0,
@@ -1398,7 +1398,7 @@
     },
     {
         "name": "Green banana peel hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -1410,7 +1410,7 @@
     },
     {
         "name": "Necklace of strength",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -1422,7 +1422,7 @@
     },
     {
         "name": "Necklace of vitality",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -1434,7 +1434,7 @@
     },
     {
         "name": "Necklace of dexterity",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -1446,7 +1446,7 @@
     },
     {
         "name": "Necklace of speed",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -1458,7 +1458,7 @@
     },
     {
         "name": "Necklace of wisdom",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -1470,7 +1470,7 @@
     },
     {
         "name": "Necklace of fortitude",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -1482,7 +1482,7 @@
     },
     {
         "name": "Necklace of dodge",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -1494,7 +1494,7 @@
     },
     {
         "name": "Necklace of luck",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -1506,7 +1506,7 @@
     },
     {
         "name": "Cotton shorts",
-        "type": "ep",
+        "type": "Pants",
         "weight": 3,
         "price": 1000,
         "lvlreq": 10,
@@ -1518,7 +1518,7 @@
     },
     {
         "name": "Leather shorts",
-        "type": "ep",
+        "type": "Pants",
         "weight": 4,
         "price": 2500,
         "lvlreq": 15,
@@ -1530,7 +1530,7 @@
     },
     {
         "name": "Leather pants",
-        "type": "ep",
+        "type": "Pants",
         "weight": 5,
         "price": 5000,
         "lvlreq": 20,
@@ -1542,7 +1542,7 @@
     },
     {
         "name": "Greatsword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 70,
         "price": 35000,
         "lvlreq": 0,
@@ -1555,7 +1555,7 @@
     },
     {
         "name": "Saber",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 27000,
         "lvlreq": 0,
@@ -1568,7 +1568,7 @@
     },
     {
         "name": "Zweihander",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 90,
         "price": 0,
         "lvlreq": 60,
@@ -1581,7 +1581,7 @@
     },
     {
         "name": "Rapier",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 90,
         "price": 0,
         "lvlreq": 60,
@@ -1594,7 +1594,7 @@
     },
     {
         "name": "Damager",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 90,
         "price": 0,
         "lvlreq": 60,
@@ -1607,7 +1607,7 @@
     },
     {
         "name": "Katana",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 70,
         "price": 0,
         "lvlreq": 60,
@@ -1620,7 +1620,7 @@
     },
     {
         "name": "Balisong",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 28,
         "price": 27000,
         "lvlreq": 0,
@@ -1633,7 +1633,7 @@
     },
     {
         "name": "Battle dagger",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 30,
         "price": 35000,
         "lvlreq": 0,
@@ -1646,7 +1646,7 @@
     },
     {
         "name": "Rumiranay",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 40,
         "price": 0,
         "lvlreq": 60,
@@ -1659,7 +1659,7 @@
     },
     {
         "name": "Sabertooth",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 40,
         "price": 0,
         "lvlreq": 60,
@@ -1672,7 +1672,7 @@
     },
     {
         "name": "Ninja sky",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 40,
         "price": 0,
         "lvlreq": 60,
@@ -1685,7 +1685,7 @@
     },
     {
         "name": "Demonair",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 40,
         "price": 0,
         "lvlreq": 60,
@@ -1698,7 +1698,7 @@
     },
     {
         "name": "Steel bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 36,
         "price": 27000,
         "lvlreq": 0,
@@ -1711,7 +1711,7 @@
     },
     {
         "name": "Mighty bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 36,
         "price": 35000,
         "lvlreq": 0,
@@ -1724,7 +1724,7 @@
     },
     {
         "name": "Silver ash",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 0,
         "lvlreq": 60,
@@ -1737,7 +1737,7 @@
     },
     {
         "name": "The antagonist",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 0,
         "lvlreq": 60,
@@ -1750,7 +1750,7 @@
     },
     {
         "name": "Venus flush",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 0,
         "lvlreq": 60,
@@ -1763,7 +1763,7 @@
     },
     {
         "name": "Vicious torpedo",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 0,
         "lvlreq": 60,
@@ -1776,7 +1776,7 @@
     },
     {
         "name": "Magical rod",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 36,
         "price": 30000,
         "lvlreq": 0,
@@ -1789,7 +1789,7 @@
     },
     {
         "name": "Battle rod",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 42,
         "price": 30000,
         "lvlreq": 0,
@@ -1802,7 +1802,7 @@
     },
     {
         "name": "Mystical rod",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 60,
         "price": 0,
         "lvlreq": 60,
@@ -1815,7 +1815,7 @@
     },
     {
         "name": "Sky blessing",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 60,
         "price": 0,
         "lvlreq": 60,
@@ -1828,7 +1828,7 @@
     },
     {
         "name": "Method of heaven",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 60,
         "price": 0,
         "lvlreq": 60,
@@ -1841,7 +1841,7 @@
     },
     {
         "name": "Arcanum",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 60,
         "price": 0,
         "lvlreq": 60,
@@ -1854,7 +1854,7 @@
     },
     {
         "name": "Pechay hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 1,
         "price": 1,
         "lvlreq": 0,
@@ -1866,7 +1866,7 @@
     },
     {
         "name": "Racing cap",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 1,
         "price": 1,
         "lvlreq": 0,
@@ -1878,7 +1878,7 @@
     },
     {
         "name": "Casual cap",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 1,
         "price": 1,
         "lvlreq": 0,
@@ -1890,7 +1890,7 @@
     },
     {
         "name": "Star cap",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 1,
         "price": 1,
         "lvlreq": 0,
@@ -1902,7 +1902,7 @@
     },
     {
         "name": "Leafie daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -1914,7 +1914,7 @@
     },
     {
         "name": "Potato daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 5,
@@ -1926,7 +1926,7 @@
     },
     {
         "name": "Stinger daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 10,
@@ -1938,7 +1938,7 @@
     },
     {
         "name": "Crab daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 10,
@@ -1950,7 +1950,7 @@
     },
     {
         "name": "Slug daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 10,
@@ -1962,7 +1962,7 @@
     },
     {
         "name": "Crop daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 5,
@@ -1974,7 +1974,7 @@
     },
     {
         "name": "Blue leaf",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 15,
         "lvlreq": 0,
@@ -1983,7 +1983,7 @@
     },
     {
         "name": "Tiny mana potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -1995,7 +1995,7 @@
     },
     {
         "name": "Small mana potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 0,
         "lvlreq": 0,
@@ -2007,7 +2007,7 @@
     },
     {
         "name": "Medium mana potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -2019,7 +2019,7 @@
     },
     {
         "name": "Large mana potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -2031,7 +2031,7 @@
     },
     {
         "name": "Caterpillar daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2043,7 +2043,7 @@
     },
     {
         "name": "Bloom Puff daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2055,7 +2055,7 @@
     },
     {
         "name": "Puff daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2067,7 +2067,7 @@
     },
     {
         "name": "Blossom Sword daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2079,7 +2079,7 @@
     },
     {
         "name": "Blossom Stick daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2091,7 +2091,7 @@
     },
     {
         "name": "Mouse daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2103,7 +2103,7 @@
     },
     {
         "name": "Chivion daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2115,7 +2115,7 @@
     },
     {
         "name": "Frog daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2127,7 +2127,7 @@
     },
     {
         "name": "Beetle Blue daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2139,7 +2139,7 @@
     },
     {
         "name": "Jellyfish daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2151,7 +2151,7 @@
     },
     {
         "name": "Mushroom daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2163,7 +2163,7 @@
     },
     {
         "name": "Chiviera daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2175,7 +2175,7 @@
     },
     {
         "name": "Bunny daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2187,7 +2187,7 @@
     },
     {
         "name": "Undead Onion daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2199,7 +2199,7 @@
     },
     {
         "name": "Undead Leafie daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2211,7 +2211,7 @@
     },
     {
         "name": "Porcupine daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2223,7 +2223,7 @@
     },
     {
         "name": "Egguidron daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2235,7 +2235,7 @@
     },
     {
         "name": "Jelly daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2247,7 +2247,7 @@
     },
     {
         "name": "Pechay daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2259,7 +2259,7 @@
     },
     {
         "name": "Zombie Slug daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2271,7 +2271,7 @@
     },
     {
         "name": "Zombie Crab daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2283,7 +2283,7 @@
     },
     {
         "name": "Rat daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -2295,7 +2295,7 @@
     },
     {
         "name": "Chivion hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 1,
         "lvlreq": 0,
@@ -2307,7 +2307,7 @@
     },
     {
         "name": "Exp boost potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 6,
@@ -2319,7 +2319,7 @@
     },
     {
         "name": "Inviter's exp boost potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 1,
         "price": 0,
         "lvlreq": 6,
@@ -2331,7 +2331,7 @@
     },
     {
         "name": "Christmas token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 7,
         "lvlreq": 0,
@@ -2340,7 +2340,7 @@
     },
     {
         "name": "Sweet candy cane",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -2352,7 +2352,7 @@
     },
     {
         "name": "Candy cane",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -2364,7 +2364,7 @@
     },
     {
         "name": "Fortune cookie",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -2376,7 +2376,7 @@
     },
     {
         "name": "Christmas cookie",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -2388,7 +2388,7 @@
     },
     {
         "name": "Pizzelle",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -2400,7 +2400,7 @@
     },
     {
         "name": "Special christmas token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 15,
         "lvlreq": 0,
@@ -2409,7 +2409,7 @@
     },
     {
         "name": "Christmas leafie daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2421,7 +2421,7 @@
     },
     {
         "name": "Santa hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -2433,7 +2433,7 @@
     },
     {
         "name": "Heart santa hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -2445,7 +2445,7 @@
     },
     {
         "name": "Button santa hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -2457,7 +2457,7 @@
     },
     {
         "name": "Elf hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -2469,7 +2469,7 @@
     },
     {
         "name": "Leaf santa hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 0,
         "lvlreq": 0,
@@ -2481,7 +2481,7 @@
     },
     {
         "name": "Winter hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -2493,7 +2493,7 @@
     },
     {
         "name": "Pacifica winter hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -2505,7 +2505,7 @@
     },
     {
         "name": "Origami hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 1,
         "price": 400,
         "lvlreq": 0,
@@ -2517,7 +2517,7 @@
     },
     {
         "name": "Santa leafie daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2529,7 +2529,7 @@
     },
     {
         "name": "Santa potato daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2541,7 +2541,7 @@
     },
     {
         "name": "Santa crop daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2553,7 +2553,7 @@
     },
     {
         "name": "Santa rat daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2565,7 +2565,7 @@
     },
     {
         "name": "Hat of happiness",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -2577,7 +2577,7 @@
     },
     {
         "name": "Horn hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 1000,
         "lvlreq": 0,
@@ -2589,7 +2589,7 @@
     },
     {
         "name": "2011 hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 5000,
         "lvlreq": 0,
@@ -2601,7 +2601,7 @@
     },
     {
         "name": "Crazy winter hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 2000,
         "lvlreq": 0,
@@ -2613,7 +2613,7 @@
     },
     {
         "name": "Spirit stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -2622,7 +2622,7 @@
     },
     {
         "name": "Spirit gem",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 200,
         "lvlreq": 0,
@@ -2631,7 +2631,7 @@
     },
     {
         "name": "Clay",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 60,
         "lvlreq": 0,
@@ -2640,7 +2640,7 @@
     },
     {
         "name": "Crystal fragment",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 200,
         "lvlreq": 0,
@@ -2649,7 +2649,7 @@
     },
     {
         "name": "Scale",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 70,
         "lvlreq": 0,
@@ -2658,7 +2658,7 @@
     },
     {
         "name": "Claw",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 100,
         "lvlreq": 0,
@@ -2667,7 +2667,7 @@
     },
     {
         "name": "Reptile skin",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 150,
         "lvlreq": 0,
@@ -2676,7 +2676,7 @@
     },
     {
         "name": "Wing of bat",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 50,
         "lvlreq": 0,
@@ -2685,7 +2685,7 @@
     },
     {
         "name": "Tooth",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 100,
         "lvlreq": 0,
@@ -2694,7 +2694,7 @@
     },
     {
         "name": "Zombie egg",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 90,
         "lvlreq": 0,
@@ -2703,7 +2703,7 @@
     },
     {
         "name": "Green gel",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 80,
         "lvlreq": 0,
@@ -2712,7 +2712,7 @@
     },
     {
         "name": "Kangkong daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 25,
@@ -2724,7 +2724,7 @@
     },
     {
         "name": "Gerboo Sr. daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2736,7 +2736,7 @@
     },
     {
         "name": "Gerboo Jr. daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2748,7 +2748,7 @@
     },
     {
         "name": "Hatcher daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 25,
@@ -2760,7 +2760,7 @@
     },
     {
         "name": "Lucid daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2772,7 +2772,7 @@
     },
     {
         "name": "Bat daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2784,7 +2784,7 @@
     },
     {
         "name": "Sharkion daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -2796,7 +2796,7 @@
     },
     {
         "name": "Paper hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -2808,7 +2808,7 @@
     },
     {
         "name": "Treasure's Exp booster",
-        "type": "c",
+        "type": "Consumable",
         "weight": 1,
         "price": 0,
         "lvlreq": 0,
@@ -2820,7 +2820,7 @@
     },
     {
         "name": "Lux hearty hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 10000,
         "lvlreq": 0,
@@ -2832,7 +2832,7 @@
     },
     {
         "name": "Purple hearty hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 3000,
         "lvlreq": 0,
@@ -2844,7 +2844,7 @@
     },
     {
         "name": "Blue hearty hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 3000,
         "lvlreq": 0,
@@ -2856,7 +2856,7 @@
     },
     {
         "name": "Angelic heart clip",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 40000,
         "lvlreq": 0,
@@ -2868,7 +2868,7 @@
     },
     {
         "name": "Love is in the air",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 1000,
         "lvlreq": 0,
@@ -2880,7 +2880,7 @@
     },
     {
         "name": "Smaller angelic clip",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 20000,
         "lvlreq": 0,
@@ -2892,7 +2892,7 @@
     },
     {
         "name": "Mine",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 50,
         "lvlreq": 0,
@@ -2901,7 +2901,7 @@
     },
     {
         "name": "Sticker",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 30,
         "lvlreq": 0,
@@ -2910,7 +2910,7 @@
     },
     {
         "name": "Tiny life regen potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 60,
         "lvlreq": 0,
@@ -2922,7 +2922,7 @@
     },
     {
         "name": "Small life regen potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -2934,7 +2934,7 @@
     },
     {
         "name": "Medium life regen potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 4,
         "price": 240,
         "lvlreq": 0,
@@ -2946,7 +2946,7 @@
     },
     {
         "name": "Large life regen potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 5,
         "price": 480,
         "lvlreq": 0,
@@ -2958,7 +2958,7 @@
     },
     {
         "name": "Balut",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 20,
         "lvlreq": 0,
@@ -2970,7 +2970,7 @@
     },
     {
         "name": "Tapsilog",
-        "type": "c",
+        "type": "Consumable",
         "weight": 5,
         "price": 45,
         "lvlreq": 0,
@@ -2982,7 +2982,7 @@
     },
     {
         "name": "Chopseuy",
-        "type": "c",
+        "type": "Consumable",
         "weight": 5,
         "price": 45,
         "lvlreq": 0,
@@ -2994,7 +2994,7 @@
     },
     {
         "name": "Sorbetes",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 20,
         "lvlreq": 0,
@@ -3006,7 +3006,7 @@
     },
     {
         "name": "Binatog",
-        "type": "c",
+        "type": "Consumable",
         "weight": 4,
         "price": 20,
         "lvlreq": 0,
@@ -3018,7 +3018,7 @@
     },
     {
         "name": "Suman",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 20,
         "lvlreq": 0,
@@ -3030,7 +3030,7 @@
     },
     {
         "name": "Adobo",
-        "type": "c",
+        "type": "Consumable",
         "weight": 5,
         "price": 45,
         "lvlreq": 0,
@@ -3042,7 +3042,7 @@
     },
     {
         "name": "Kare-kare",
-        "type": "c",
+        "type": "Consumable",
         "weight": 5,
         "price": 45,
         "lvlreq": 0,
@@ -3054,7 +3054,7 @@
     },
     {
         "name": "Salakot",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 7,
         "price": 100,
         "lvlreq": 0,
@@ -3066,7 +3066,7 @@
     },
     {
         "name": "Straw hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 7,
         "price": 100,
         "lvlreq": 0,
@@ -3078,7 +3078,7 @@
     },
     {
         "name": "Crimson stinger helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -3090,7 +3090,7 @@
     },
     {
         "name": "Green stinger helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -3102,7 +3102,7 @@
     },
     {
         "name": "Hardened crab helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -3114,7 +3114,7 @@
     },
     {
         "name": "Blue crab helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -3126,7 +3126,7 @@
     },
     {
         "name": "Blue leaf crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -3138,7 +3138,7 @@
     },
     {
         "name": "Red leaf crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -3150,7 +3150,7 @@
     },
     {
         "name": "Purple leaf crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -3162,7 +3162,7 @@
     },
     {
         "name": "Metal",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 50,
         "lvlreq": 0,
@@ -3171,7 +3171,7 @@
     },
     {
         "name": "Hat of Rua",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 50000,
         "lvlreq": 55,
@@ -3184,7 +3184,7 @@
     },
     {
         "name": "Hat of Hesa",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 50000,
         "lvlreq": 55,
@@ -3197,7 +3197,7 @@
     },
     {
         "name": "Clergy hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 50000,
         "lvlreq": 55,
@@ -3210,7 +3210,7 @@
     },
     {
         "name": "Female clergy hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 50000,
         "lvlreq": 55,
@@ -3223,7 +3223,7 @@
     },
     {
         "name": "Waif crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 50000,
         "lvlreq": 55,
@@ -3236,7 +3236,7 @@
     },
     {
         "name": "Shades",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 0,
         "lvlreq": 0,
@@ -3248,7 +3248,7 @@
     },
     {
         "name": "Purple shades",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 0,
         "lvlreq": 0,
@@ -3260,7 +3260,7 @@
     },
     {
         "name": "Headset alpha",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 160000,
         "lvlreq": 0,
@@ -3272,7 +3272,7 @@
     },
     {
         "name": "Headset beta",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 160000,
         "lvlreq": 0,
@@ -3284,7 +3284,7 @@
     },
     {
         "name": "GL Eterna trophy",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 1000,
         "lvlreq": 0,
@@ -3293,7 +3293,7 @@
     },
     {
         "name": "GL Eterna token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -3302,7 +3302,7 @@
     },
     {
         "name": "Habulan trophy",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 500,
         "lvlreq": 0,
@@ -3311,7 +3311,7 @@
     },
     {
         "name": "Habulan token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -3320,7 +3320,7 @@
     },
     {
         "name": "Agawan Base trophy",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 200,
         "lvlreq": 0,
@@ -3329,7 +3329,7 @@
     },
     {
         "name": "Agawan Base token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -3338,7 +3338,7 @@
     },
     {
         "name": "Piece of manuscript",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -3347,7 +3347,7 @@
     },
     {
         "name": "Jester mask",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -3359,7 +3359,7 @@
     },
     {
         "name": "Keazara's dictionary",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 1000,
         "lvlreq": 0,
@@ -3368,7 +3368,7 @@
     },
     {
         "name": "Chef's suit",
-        "type": "ea",
+        "type": "Armor",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -3380,7 +3380,7 @@
     },
     {
         "name": "Bone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 150,
         "lvlreq": 0,
@@ -3389,7 +3389,7 @@
     },
     {
         "name": "Chef's hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -3401,7 +3401,7 @@
     },
     {
         "name": "Key",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 100,
         "lvlreq": 0,
@@ -3410,7 +3410,7 @@
     },
     {
         "name": "Antique hilt",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 200,
         "lvlreq": 0,
@@ -3419,7 +3419,7 @@
     },
     {
         "name": "Skull",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 200,
         "lvlreq": 0,
@@ -3428,7 +3428,7 @@
     },
     {
         "name": "Chef's knife",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -3441,7 +3441,7 @@
     },
     {
         "name": "Jester shoes",
-        "type": "ef",
+        "type": "Footwear",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -3453,7 +3453,7 @@
     },
     {
         "name": "Jester hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 500,
         "lvlreq": 0,
@@ -3465,7 +3465,7 @@
     },
     {
         "name": "Steel",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 5,
         "price": 200,
         "lvlreq": 0,
@@ -3474,7 +3474,7 @@
     },
     {
         "name": "Broken sword",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 7,
         "price": 300,
         "lvlreq": 0,
@@ -3483,7 +3483,7 @@
     },
     {
         "name": "Wand",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 8,
         "price": 500,
         "lvlreq": 0,
@@ -3495,7 +3495,7 @@
     },
     {
         "name": "Virbat daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3507,7 +3507,7 @@
     },
     {
         "name": "Houseboy daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3519,7 +3519,7 @@
     },
     {
         "name": "Armored Swordsman daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3531,7 +3531,7 @@
     },
     {
         "name": "Plated Warrior daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3543,7 +3543,7 @@
     },
     {
         "name": "Maid Marionette daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3555,7 +3555,7 @@
     },
     {
         "name": "Skeleton Swordsman daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3567,7 +3567,7 @@
     },
     {
         "name": "Skeleton Archer daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3579,7 +3579,7 @@
     },
     {
         "name": "Skeleton Warrior daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3591,7 +3591,7 @@
     },
     {
         "name": "Solemn Witch daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3603,7 +3603,7 @@
     },
     {
         "name": "Shadow Sworder daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3615,7 +3615,7 @@
     },
     {
         "name": "Butcher Chef daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3627,7 +3627,7 @@
     },
     {
         "name": "Zombie Swordsman daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3639,7 +3639,7 @@
     },
     {
         "name": "Shadow Bower daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3651,7 +3651,7 @@
     },
     {
         "name": "Zombie Archer daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3663,7 +3663,7 @@
     },
     {
         "name": "Shadow Warrior daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3675,7 +3675,7 @@
     },
     {
         "name": "Hunchback daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3687,7 +3687,7 @@
     },
     {
         "name": "Jester daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3699,7 +3699,7 @@
     },
     {
         "name": "Eye",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 100,
         "lvlreq": 0,
@@ -3708,7 +3708,7 @@
     },
     {
         "name": "Evil Eye daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -3720,7 +3720,7 @@
     },
     {
         "name": "Broken helmet",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 300,
         "lvlreq": 0,
@@ -3729,7 +3729,7 @@
     },
     {
         "name": "Dryad token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 500,
         "lvlreq": 0,
@@ -3738,7 +3738,7 @@
     },
     {
         "name": "Yumshroom",
-        "type": "c",
+        "type": "Consumable",
         "weight": 1,
         "price": 500,
         "lvlreq": 0,
@@ -3750,7 +3750,7 @@
     },
     {
         "name": "Test daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -3762,7 +3762,7 @@
     },
     {
         "name": "Special crop daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -3774,7 +3774,7 @@
     },
     {
         "name": "Special mushroom daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -3786,7 +3786,7 @@
     },
     {
         "name": "Special potato daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -3798,7 +3798,7 @@
     },
     {
         "name": "War potato helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 12,
         "price": 1,
         "lvlreq": 0,
@@ -3810,7 +3810,7 @@
     },
     {
         "name": "Canary pechay hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -3822,7 +3822,7 @@
     },
     {
         "name": "Black salakot",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 8,
         "price": 59000,
         "lvlreq": 0,
@@ -3834,7 +3834,7 @@
     },
     {
         "name": "Abaca straw hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 1,
         "lvlreq": 0,
@@ -3846,7 +3846,7 @@
     },
     {
         "name": "Bucket helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 10000,
         "lvlreq": 10,
@@ -3858,7 +3858,7 @@
     },
     {
         "name": "Gatsby",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 8,
         "price": 59000,
         "lvlreq": 0,
@@ -3870,7 +3870,7 @@
     },
     {
         "name": "Feather hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 390000,
         "lvlreq": 0,
@@ -3882,7 +3882,7 @@
     },
     {
         "name": "Flower crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 19000,
         "lvlreq": 0,
@@ -3894,7 +3894,7 @@
     },
     {
         "name": "Thorn leaf crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 19000,
         "lvlreq": 0,
@@ -3906,7 +3906,7 @@
     },
     {
         "name": "Top",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 8,
         "price": 29000,
         "lvlreq": 0,
@@ -3918,7 +3918,7 @@
     },
     {
         "name": "Hat de mayor",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 9000,
         "lvlreq": 0,
@@ -3930,7 +3930,7 @@
     },
     {
         "name": "Hat clip",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 8000,
         "lvlreq": 0,
@@ -3942,7 +3942,7 @@
     },
     {
         "name": "Violet star cap",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 8,
         "price": 1,
         "lvlreq": 0,
@@ -3954,7 +3954,7 @@
     },
     {
         "name": "Blue brim",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 190000,
         "lvlreq": 0,
@@ -3966,7 +3966,7 @@
     },
     {
         "name": "Special Color dye",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 12,
         "price": 1,
         "lvlreq": 0,
@@ -3975,7 +3975,7 @@
     },
     {
         "name": "Strength capsule",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -3987,7 +3987,7 @@
     },
     {
         "name": "Vitality capsule",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -3999,7 +3999,7 @@
     },
     {
         "name": "Dexterity capsule",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -4011,7 +4011,7 @@
     },
     {
         "name": "Speed capsule",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -4023,7 +4023,7 @@
     },
     {
         "name": "Wisdom capsule",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -4035,7 +4035,7 @@
     },
     {
         "name": "Fortitude capsule",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -4047,7 +4047,7 @@
     },
     {
         "name": "Dodge capsule",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -4059,7 +4059,7 @@
     },
     {
         "name": "Luck capsule",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 1,
         "lvlreq": 0,
@@ -4071,7 +4071,7 @@
     },
     {
         "name": "Attribute break",
-        "type": "c",
+        "type": "Consumable",
         "weight": 15,
         "price": 1,
         "lvlreq": 0,
@@ -4083,7 +4083,7 @@
     },
     {
         "name": "Skill break",
-        "type": "c",
+        "type": "Consumable",
         "weight": 15,
         "price": 1,
         "lvlreq": 0,
@@ -4095,7 +4095,7 @@
     },
     {
         "name": "Asul Leafie daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -4107,7 +4107,7 @@
     },
     {
         "name": "Violeaf daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -4119,7 +4119,7 @@
     },
     {
         "name": "Exigouleaf daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -4131,7 +4131,7 @@
     },
     {
         "name": "Cripcrop daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 5,
@@ -4143,7 +4143,7 @@
     },
     {
         "name": "Chilli Crop daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 5,
@@ -4155,7 +4155,7 @@
     },
     {
         "name": "Desert Leaf daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 0,
@@ -4167,7 +4167,7 @@
     },
     {
         "name": "Slime daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 10,
@@ -4179,7 +4179,7 @@
     },
     {
         "name": "Floater daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 1,
         "lvlreq": 10,
@@ -4191,7 +4191,7 @@
     },
     {
         "name": "Dryad Epsilon daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 30,
         "price": 0,
         "lvlreq": 10,
@@ -4203,7 +4203,7 @@
     },
     {
         "name": "Raptor Enigma daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 30,
         "price": 0,
         "lvlreq": 10,
@@ -4215,7 +4215,7 @@
     },
     {
         "name": "Cerberon Embirea daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 30,
         "price": 0,
         "lvlreq": 10,
@@ -4227,7 +4227,7 @@
     },
     {
         "name": "Invasion trophy",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 200,
         "lvlreq": 0,
@@ -4236,7 +4236,7 @@
     },
     {
         "name": "Invasion token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -4245,7 +4245,7 @@
     },
     {
         "name": "Gloves of strength",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -4257,7 +4257,7 @@
     },
     {
         "name": "Gloves of vitality",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -4269,7 +4269,7 @@
     },
     {
         "name": "Gloves of dexterity",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -4281,7 +4281,7 @@
     },
     {
         "name": "Gloves of speed",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -4293,7 +4293,7 @@
     },
     {
         "name": "Gloves of wisdom",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -4305,7 +4305,7 @@
     },
     {
         "name": "Gloves of fortitude",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -4317,7 +4317,7 @@
     },
     {
         "name": "Gloves of dodge",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -4329,7 +4329,7 @@
     },
     {
         "name": "Gloves of luck",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -4341,7 +4341,7 @@
     },
     {
         "name": "Boots",
-        "type": "ef",
+        "type": "Footwear",
         "weight": 3,
         "price": 0,
         "lvlreq": 0,
@@ -4353,7 +4353,7 @@
     },
     {
         "name": "Great metal armor",
-        "type": "ea",
+        "type": "Armor",
         "weight": 18,
         "price": 0,
         "lvlreq": 0,
@@ -4366,7 +4366,7 @@
     },
     {
         "name": "Great fur jacket",
-        "type": "ea",
+        "type": "Armor",
         "weight": 7,
         "price": 0,
         "lvlreq": 0,
@@ -4379,7 +4379,7 @@
     },
     {
         "name": "Great metal plate",
-        "type": "ea",
+        "type": "Armor",
         "weight": 14,
         "price": 0,
         "lvlreq": 0,
@@ -4392,7 +4392,7 @@
     },
     {
         "name": "Great clerical jacket",
-        "type": "ea",
+        "type": "Armor",
         "weight": 6,
         "price": 0,
         "lvlreq": 0,
@@ -4405,7 +4405,7 @@
     },
     {
         "name": "Antidote",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4417,7 +4417,7 @@
     },
     {
         "name": "Anti-virus",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4429,7 +4429,7 @@
     },
     {
         "name": "Anti-paralysis",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4441,7 +4441,7 @@
     },
     {
         "name": "Anti-plague",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4453,7 +4453,7 @@
     },
     {
         "name": "Anti-curse",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4465,7 +4465,7 @@
     },
     {
         "name": "Memoblock",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4477,7 +4477,7 @@
     },
     {
         "name": "Whamblock",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4489,7 +4489,7 @@
     },
     {
         "name": "Mindblock",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4501,7 +4501,7 @@
     },
     {
         "name": "Aroma leaf",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4513,7 +4513,7 @@
     },
     {
         "name": "Valiant's tear",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4525,7 +4525,7 @@
     },
     {
         "name": "Eye drop",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4537,7 +4537,7 @@
     },
     {
         "name": "Bandage",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4549,7 +4549,7 @@
     },
     {
         "name": "Icebag",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4561,7 +4561,7 @@
     },
     {
         "name": "Energy drink",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4573,7 +4573,7 @@
     },
     {
         "name": "Stamina drink",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4585,7 +4585,7 @@
     },
     {
         "name": "Knowledge badge",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4597,7 +4597,7 @@
     },
     {
         "name": "Lucky coin",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -4609,7 +4609,7 @@
     },
     {
         "name": "Hero's might",
-        "type": "gw",
+        "type": "Weapon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4621,7 +4621,7 @@
     },
     {
         "name": "Hero's eye",
-        "type": "gw",
+        "type": "Weapon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4633,7 +4633,7 @@
     },
     {
         "name": "Hero's luck",
-        "type": "gw",
+        "type": "Weapon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4645,7 +4645,7 @@
     },
     {
         "name": "Hero's mind",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4657,7 +4657,7 @@
     },
     {
         "name": "Heroic protection",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4669,7 +4669,7 @@
     },
     {
         "name": "Heroic haste",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4681,7 +4681,7 @@
     },
     {
         "name": "Heroic alertness",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4693,7 +4693,7 @@
     },
     {
         "name": "Heroic courage",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4705,7 +4705,7 @@
     },
     {
         "name": "Heroic protection",
-        "type": "ga",
+        "type": "Armor Gem",
         "weight": 60,
         "price": 100,
         "lvlreq": 0,
@@ -4717,7 +4717,7 @@
     },
     {
         "name": "Heroic haste",
-        "type": "ga",
+        "type": "Armor Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4729,7 +4729,7 @@
     },
     {
         "name": "Heroic alertness",
-        "type": "ga",
+        "type": "Armor Gem",
         "weight": 60,
         "price": 100,
         "lvlreq": 0,
@@ -4741,7 +4741,7 @@
     },
     {
         "name": "Heroic courage",
-        "type": "ga",
+        "type": "Armor Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4753,7 +4753,7 @@
     },
     {
         "name": "Heroic protection",
-        "type": "gf",
+        "type": "Footwear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4765,7 +4765,7 @@
     },
     {
         "name": "Heroic haste",
-        "type": "gf",
+        "type": "Footwear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4777,7 +4777,7 @@
     },
     {
         "name": "Heroic alertness",
-        "type": "gf",
+        "type": "Footwear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4789,7 +4789,7 @@
     },
     {
         "name": "Heroic courage",
-        "type": "gf",
+        "type": "Footwear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4801,7 +4801,7 @@
     },
     {
         "name": "Heroic protection",
-        "type": "gg",
+        "type": "Gloves Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4813,7 +4813,7 @@
     },
     {
         "name": "Heroic haste",
-        "type": "gg",
+        "type": "Gloves Gem",
         "weight": 60,
         "price": 100,
         "lvlreq": 0,
@@ -4825,7 +4825,7 @@
     },
     {
         "name": "Heroic alertness",
-        "type": "gg",
+        "type": "Gloves Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4837,7 +4837,7 @@
     },
     {
         "name": "Heroic courage",
-        "type": "gg",
+        "type": "Gloves Gem",
         "weight": 60,
         "price": 100,
         "lvlreq": 0,
@@ -4849,7 +4849,7 @@
     },
     {
         "name": "Heroic protection",
-        "type": "gp",
+        "type": "Pants Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4861,7 +4861,7 @@
     },
     {
         "name": "Heroic haste",
-        "type": "gp",
+        "type": "Pants Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4873,7 +4873,7 @@
     },
     {
         "name": "Heroic alertness",
-        "type": "gp",
+        "type": "Pants Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4885,7 +4885,7 @@
     },
     {
         "name": "Heroic courage",
-        "type": "gp",
+        "type": "Pants Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4897,7 +4897,7 @@
     },
     {
         "name": "Strength boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4909,7 +4909,7 @@
     },
     {
         "name": "Vitality boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4921,7 +4921,7 @@
     },
     {
         "name": "Speed boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4933,7 +4933,7 @@
     },
     {
         "name": "Mind boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4945,7 +4945,7 @@
     },
     {
         "name": "Dexterity boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4957,7 +4957,7 @@
     },
     {
         "name": "Alert boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4969,7 +4969,7 @@
     },
     {
         "name": "Chakra boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4981,7 +4981,7 @@
     },
     {
         "name": "Luck boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -4993,7 +4993,7 @@
     },
     {
         "name": "Strength core",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -5005,7 +5005,7 @@
     },
     {
         "name": "Vitality core",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -5017,7 +5017,7 @@
     },
     {
         "name": "Haste core",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -5029,7 +5029,7 @@
     },
     {
         "name": "Mind core",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -5041,7 +5041,7 @@
     },
     {
         "name": "Dexterity core",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -5053,7 +5053,7 @@
     },
     {
         "name": "Alert core",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -5065,7 +5065,7 @@
     },
     {
         "name": "Chakra core",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -5077,7 +5077,7 @@
     },
     {
         "name": "Luck core",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 0,
@@ -5089,7 +5089,7 @@
     },
     {
         "name": "Hero's might",
-        "type": "gw",
+        "type": "Weapon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5101,7 +5101,7 @@
     },
     {
         "name": "Hero's eye",
-        "type": "gw",
+        "type": "Weapon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5113,7 +5113,7 @@
     },
     {
         "name": "Hero's luck",
-        "type": "gw",
+        "type": "Weapon Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5125,7 +5125,7 @@
     },
     {
         "name": "Hero's mind",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5137,7 +5137,7 @@
     },
     {
         "name": "Strength boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5149,7 +5149,7 @@
     },
     {
         "name": "Vitality boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5161,7 +5161,7 @@
     },
     {
         "name": "Speed boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5173,7 +5173,7 @@
     },
     {
         "name": "Mind boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5185,7 +5185,7 @@
     },
     {
         "name": "Dexterity boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5197,7 +5197,7 @@
     },
     {
         "name": "Alert boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5209,7 +5209,7 @@
     },
     {
         "name": "Chakra boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5221,7 +5221,7 @@
     },
     {
         "name": "Luck boost",
-        "type": "gn",
+        "type": "Necklace Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5233,7 +5233,7 @@
     },
     {
         "name": "Heroic protection",
-        "type": "ga",
+        "type": "Armor Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5245,7 +5245,7 @@
     },
     {
         "name": "Heroic alertness",
-        "type": "ga",
+        "type": "Armor Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5257,7 +5257,7 @@
     },
     {
         "name": "Heroic courage",
-        "type": "ga",
+        "type": "Armor Gem",
         "weight": 7200,
         "price": 100,
         "lvlreq": 65,
@@ -5269,7 +5269,7 @@
     },
     {
         "name": "Stone of mastery",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 60,
         "price": 100,
         "lvlreq": 60,
@@ -5281,7 +5281,7 @@
     },
     {
         "name": "Venturer's gem",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 30,
         "price": 100,
         "lvlreq": 0,
@@ -5293,7 +5293,7 @@
     },
     {
         "name": "Speech diagram A",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5302,7 +5302,7 @@
     },
     {
         "name": "Speech diagram E",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5311,7 +5311,7 @@
     },
     {
         "name": "Speech diagram I",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5320,7 +5320,7 @@
     },
     {
         "name": "Speech diagram O",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5329,7 +5329,7 @@
     },
     {
         "name": "Speech diagram U",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5338,7 +5338,7 @@
     },
     {
         "name": "Speech diagram B",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5347,7 +5347,7 @@
     },
     {
         "name": "Speech diagram C",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5356,7 +5356,7 @@
     },
     {
         "name": "Speech diagram D",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5365,7 +5365,7 @@
     },
     {
         "name": "Speech diagram F",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5374,7 +5374,7 @@
     },
     {
         "name": "Speech diagram G",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5383,7 +5383,7 @@
     },
     {
         "name": "Speech diagram H",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5392,7 +5392,7 @@
     },
     {
         "name": "Speech diagram J",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5401,7 +5401,7 @@
     },
     {
         "name": "Speech diagram K",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5410,7 +5410,7 @@
     },
     {
         "name": "Speech diagram L",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5419,7 +5419,7 @@
     },
     {
         "name": "Speech diagram M",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5428,7 +5428,7 @@
     },
     {
         "name": "Speech diagram N",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5437,7 +5437,7 @@
     },
     {
         "name": "Speech diagram P",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5446,7 +5446,7 @@
     },
     {
         "name": "Speech diagram Q",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5455,7 +5455,7 @@
     },
     {
         "name": "Speech diagram R",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5464,7 +5464,7 @@
     },
     {
         "name": "Speech diagram S",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5473,7 +5473,7 @@
     },
     {
         "name": "Speech diagram T",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5482,7 +5482,7 @@
     },
     {
         "name": "Speech diagram V",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5491,7 +5491,7 @@
     },
     {
         "name": "Speech diagram W",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5500,7 +5500,7 @@
     },
     {
         "name": "Speech diagram X",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5509,7 +5509,7 @@
     },
     {
         "name": "Speech diagram Y",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5518,7 +5518,7 @@
     },
     {
         "name": "Speech diagram Z",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5527,7 +5527,7 @@
     },
     {
         "name": "Mr Blossom daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -5539,7 +5539,7 @@
     },
     {
         "name": "Viropillar daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 30,
@@ -5551,7 +5551,7 @@
     },
     {
         "name": "Flippy writer daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -5563,7 +5563,7 @@
     },
     {
         "name": "Flippy book daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -5575,7 +5575,7 @@
     },
     {
         "name": "Mad raptor",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -5587,7 +5587,7 @@
     },
     {
         "name": "Ceribro",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -5599,7 +5599,7 @@
     },
     {
         "name": "Pink old diary",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5608,7 +5608,7 @@
     },
     {
         "name": "Blue old diary",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5617,7 +5617,7 @@
     },
     {
         "name": "Mail man's ID S",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5626,7 +5626,7 @@
     },
     {
         "name": "Mail man's ID A",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5635,7 +5635,7 @@
     },
     {
         "name": "Mail man's ID B",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5644,7 +5644,7 @@
     },
     {
         "name": "Mail man's ID C",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5653,7 +5653,7 @@
     },
     {
         "name": "Mail man's ID D",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5662,7 +5662,7 @@
     },
     {
         "name": "Mailing token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5671,7 +5671,7 @@
     },
     {
         "name": "Mysterious letter",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5680,7 +5680,7 @@
     },
     {
         "name": "Letter to Rafaga",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5689,7 +5689,7 @@
     },
     {
         "name": "Letter to George",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5698,7 +5698,7 @@
     },
     {
         "name": "Letter to Pete",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5707,7 +5707,7 @@
     },
     {
         "name": "Letter to Raigah",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5716,7 +5716,7 @@
     },
     {
         "name": "Letter to Yuki",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5725,7 +5725,7 @@
     },
     {
         "name": "Raptor's soul",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5734,7 +5734,7 @@
     },
     {
         "name": "Cerberon's soul",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5743,7 +5743,7 @@
     },
     {
         "name": "Floater daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -5755,7 +5755,7 @@
     },
     {
         "name": "Bastard sword",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 20,
         "price": 12000,
         "lvlreq": 38,
@@ -5768,7 +5768,7 @@
     },
     {
         "name": "Estoc",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 20,
         "price": 12000,
         "lvlreq": 38,
@@ -5781,7 +5781,7 @@
     },
     {
         "name": "Claymore",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 20,
         "price": 12000,
         "lvlreq": 38,
@@ -5794,7 +5794,7 @@
     },
     {
         "name": "Kampilan",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 20,
         "price": 12000,
         "lvlreq": 38,
@@ -5807,7 +5807,7 @@
     },
     {
         "name": "Machete",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 20,
         "price": 12000,
         "lvlreq": 38,
@@ -5820,7 +5820,7 @@
     },
     {
         "name": "Basalard",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 30,
         "price": 35000,
         "lvlreq": 0,
@@ -5833,7 +5833,7 @@
     },
     {
         "name": "Gladius",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 30,
         "price": 35000,
         "lvlreq": 0,
@@ -5846,7 +5846,7 @@
     },
     {
         "name": "Zilletto",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 30,
         "price": 35000,
         "lvlreq": 0,
@@ -5859,7 +5859,7 @@
     },
     {
         "name": "Dirk",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 30,
         "price": 35000,
         "lvlreq": 0,
@@ -5872,7 +5872,7 @@
     },
     {
         "name": "Bente nuebe",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 30,
         "price": 35000,
         "lvlreq": 0,
@@ -5885,7 +5885,7 @@
     },
     {
         "name": "Elven bow",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 150,
         "lvlreq": 6,
@@ -5898,7 +5898,7 @@
     },
     {
         "name": "Arbalash",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 150,
         "lvlreq": 6,
@@ -5911,7 +5911,7 @@
     },
     {
         "name": "Ballista",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 150,
         "lvlreq": 6,
@@ -5924,7 +5924,7 @@
     },
     {
         "name": "Yumi",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 150,
         "lvlreq": 6,
@@ -5937,7 +5937,7 @@
     },
     {
         "name": "Magnum",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 6,
         "price": 150,
         "lvlreq": 6,
@@ -5950,7 +5950,7 @@
     },
     {
         "name": "Mace",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 300,
         "lvlreq": 11,
@@ -5963,7 +5963,7 @@
     },
     {
         "name": "Flail",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 300,
         "lvlreq": 11,
@@ -5976,7 +5976,7 @@
     },
     {
         "name": "Morning star",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 300,
         "lvlreq": 11,
@@ -5989,7 +5989,7 @@
     },
     {
         "name": "Fairie staff",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 300,
         "lvlreq": 11,
@@ -6002,7 +6002,7 @@
     },
     {
         "name": "Setro",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 5,
         "price": 300,
         "lvlreq": 11,
@@ -6015,7 +6015,7 @@
     },
     {
         "name": "Book of swords I",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6024,7 +6024,7 @@
     },
     {
         "name": "Book of swords II",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6033,7 +6033,7 @@
     },
     {
         "name": "Book of swords III",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6042,7 +6042,7 @@
     },
     {
         "name": "Book of swords IV",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6051,7 +6051,7 @@
     },
     {
         "name": "Book of swords V",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6060,7 +6060,7 @@
     },
     {
         "name": "Book of daggers I",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6069,7 +6069,7 @@
     },
     {
         "name": "Book of daggers II",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6078,7 +6078,7 @@
     },
     {
         "name": "Book of daggers III",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6087,7 +6087,7 @@
     },
     {
         "name": "Book of daggers IV",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6096,7 +6096,7 @@
     },
     {
         "name": "Book of daggers V",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6105,7 +6105,7 @@
     },
     {
         "name": "Book of bows I",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6114,7 +6114,7 @@
     },
     {
         "name": "Book of bows II",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6123,7 +6123,7 @@
     },
     {
         "name": "Book of bows III",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6132,7 +6132,7 @@
     },
     {
         "name": "Book of bows IV",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6141,7 +6141,7 @@
     },
     {
         "name": "Book of bows V",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6150,7 +6150,7 @@
     },
     {
         "name": "Book of rods I",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6159,7 +6159,7 @@
     },
     {
         "name": "Book of rods II",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6168,7 +6168,7 @@
     },
     {
         "name": "Book of rods III",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6177,7 +6177,7 @@
     },
     {
         "name": "Book of rods IV",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6186,7 +6186,7 @@
     },
     {
         "name": "Book of rods V",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6195,7 +6195,7 @@
     },
     {
         "name": "Champion's crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -6207,7 +6207,7 @@
     },
     {
         "name": "Champion's suit",
-        "type": "ea",
+        "type": "Armor",
         "weight": 2,
         "price": 100,
         "lvlreq": 10,
@@ -6219,7 +6219,7 @@
     },
     {
         "name": "Champion's gloves",
-        "type": "ef",
+        "type": "Footwear",
         "weight": 3,
         "price": 2000,
         "lvlreq": 36,
@@ -6231,7 +6231,7 @@
     },
     {
         "name": "Champion's leggings",
-        "type": "ep",
+        "type": "Pants",
         "weight": 4,
         "price": 2500,
         "lvlreq": 15,
@@ -6243,7 +6243,7 @@
     },
     {
         "name": "Champion's greeves",
-        "type": "ef",
+        "type": "Footwear",
         "weight": 3,
         "price": 2000,
         "lvlreq": 36,
@@ -6255,7 +6255,7 @@
     },
     {
         "name": "Champion's chocker",
-        "type": "en",
+        "type": "Necklace",
         "weight": 5,
         "price": 50000,
         "lvlreq": 0,
@@ -6267,7 +6267,7 @@
     },
     {
         "name": "Champion daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -6279,7 +6279,7 @@
     },
     {
         "name": "Mushroom animate",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6288,7 +6288,7 @@
     },
     {
         "name": "Antique painting",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6297,7 +6297,7 @@
     },
     {
         "name": "Antique chalice",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6306,7 +6306,7 @@
     },
     {
         "name": "Antique mask",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6315,7 +6315,7 @@
     },
     {
         "name": "Antique medalion",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6324,7 +6324,7 @@
     },
     {
         "name": "Antique crown",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6333,7 +6333,7 @@
     },
     {
         "name": "Antique plate",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6342,7 +6342,7 @@
     },
     {
         "name": "Ripped bookpage 47",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6351,7 +6351,7 @@
     },
     {
         "name": "Ripped bookpage 98",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6360,7 +6360,7 @@
     },
     {
         "name": "Ripped bookpage 24",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6369,7 +6369,7 @@
     },
     {
         "name": "Ripped bookpage 106",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6378,7 +6378,7 @@
     },
     {
         "name": "Bee ornament",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 200,
         "lvlreq": 0,
@@ -6387,7 +6387,7 @@
     },
     {
         "name": "Red herb",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6396,7 +6396,7 @@
     },
     {
         "name": "Alfred SOS Token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 0,
         "lvlreq": 0,
@@ -6405,7 +6405,7 @@
     },
     {
         "name": "Quality leaf",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6414,7 +6414,7 @@
     },
     {
         "name": "Storage key",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6423,7 +6423,7 @@
     },
     {
         "name": "Wood",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 10,
         "lvlreq": 0,
@@ -6432,7 +6432,7 @@
     },
     {
         "name": "Sinew",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6441,7 +6441,7 @@
     },
     {
         "name": "Red flower",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6450,7 +6450,7 @@
     },
     {
         "name": "Red flower crown",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 12,
         "price": 10,
         "lvlreq": 0,
@@ -6459,7 +6459,7 @@
     },
     {
         "name": "Purple flower",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6468,7 +6468,7 @@
     },
     {
         "name": "Purple flower crown",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 12,
         "price": 10,
         "lvlreq": 0,
@@ -6477,7 +6477,7 @@
     },
     {
         "name": "Blue flower",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6486,7 +6486,7 @@
     },
     {
         "name": "Blue flower crown",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 12,
         "price": 10,
         "lvlreq": 0,
@@ -6495,7 +6495,7 @@
     },
     {
         "name": "White flower",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6504,7 +6504,7 @@
     },
     {
         "name": "While flower crown",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 12,
         "price": 10,
         "lvlreq": 0,
@@ -6513,7 +6513,7 @@
     },
     {
         "name": "Sweet potato",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 10,
         "lvlreq": 0,
@@ -6522,7 +6522,7 @@
     },
     {
         "name": "Fries",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 10,
         "lvlreq": 0,
@@ -6531,7 +6531,7 @@
     },
     {
         "name": "Mikaela's letter for Ricky",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6540,7 +6540,7 @@
     },
     {
         "name": "Ricky's letter for Mikaela",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6549,7 +6549,7 @@
     },
     {
         "name": "Razor's letter for Mikaela",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6558,7 +6558,7 @@
     },
     {
         "name": "Mikaela's letter for Razor",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6567,7 +6567,7 @@
     },
     {
         "name": "Eric's advice",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6576,7 +6576,7 @@
     },
     {
         "name": "John's advice",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6585,7 +6585,7 @@
     },
     {
         "name": "Raw crab meat",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6594,7 +6594,7 @@
     },
     {
         "name": "Seaweed",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6603,7 +6603,7 @@
     },
     {
         "name": "Adhesive gel",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6612,7 +6612,7 @@
     },
     {
         "name": "Pendant fragment",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6621,7 +6621,7 @@
     },
     {
         "name": "Fiber",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6630,7 +6630,7 @@
     },
     {
         "name": "Pete's pendant",
-        "type": "en",
+        "type": "Necklace",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6642,7 +6642,7 @@
     },
     {
         "name": "Purified spirit stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 10,
         "lvlreq": 0,
@@ -6651,7 +6651,7 @@
     },
     {
         "name": "Quality fur",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6660,7 +6660,7 @@
     },
     {
         "name": "Exotic leaf",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6669,7 +6669,7 @@
     },
     {
         "name": "Purified dark stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 10,
         "lvlreq": 0,
@@ -6678,7 +6678,7 @@
     },
     {
         "name": "Potion delivery box",
-        "type": "gg",
+        "type": "Gloves Gem",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6690,7 +6690,7 @@
     },
     {
         "name": "Cotton",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6699,7 +6699,7 @@
     },
     {
         "name": "Lady Mariane token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 10,
         "lvlreq": 0,
@@ -6708,7 +6708,7 @@
     },
     {
         "name": "Helper's badge",
-        "type": "en",
+        "type": "Necklace",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6720,7 +6720,7 @@
     },
     {
         "name": "Volunteer's badge",
-        "type": "en",
+        "type": "Necklace",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6732,7 +6732,7 @@
     },
     {
         "name": "Tyro's badge",
-        "type": "en",
+        "type": "Necklace",
         "weight": 2,
         "price": 10,
         "lvlreq": 0,
@@ -6744,7 +6744,7 @@
     },
     {
         "name": "Game token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6753,7 +6753,7 @@
     },
     {
         "name": "Helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 12,
         "price": 50000,
         "lvlreq": 55,
@@ -6766,7 +6766,7 @@
     },
     {
         "name": "Hundred peso pouch",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6778,7 +6778,7 @@
     },
     {
         "name": "Thousand peso pouch",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6790,7 +6790,7 @@
     },
     {
         "name": "Storage pass",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6799,7 +6799,7 @@
     },
     {
         "name": "Warp orb",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 50,
         "lvlreq": 0,
@@ -6808,7 +6808,7 @@
     },
     {
         "name": "Sando II",
-        "type": "ea",
+        "type": "Armor",
         "weight": 2,
         "price": 0,
         "lvlreq": 10,
@@ -6820,7 +6820,7 @@
     },
     {
         "name": "Key",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6829,7 +6829,7 @@
     },
     {
         "name": "Mikaela's gem",
-        "type": "gw",
+        "type": "Weapon Gem",
         "weight": 65535,
         "price": 0,
         "lvlreq": 0,
@@ -6841,7 +6841,7 @@
     },
     {
         "name": "Mikaela's life regen potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6853,7 +6853,7 @@
     },
     {
         "name": "Eric's gem",
-        "type": "gf",
+        "type": "Footwear Gem",
         "weight": 65535,
         "price": 0,
         "lvlreq": 0,
@@ -6865,7 +6865,7 @@
     },
     {
         "name": "Alfred's gem",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 65535,
         "price": 0,
         "lvlreq": 0,
@@ -6877,7 +6877,7 @@
     },
     {
         "name": "John's gem",
-        "type": "gg",
+        "type": "Gloves Gem",
         "weight": 65535,
         "price": 0,
         "lvlreq": 0,
@@ -6889,7 +6889,7 @@
     },
     {
         "name": "Sleep hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 0,
         "lvlreq": 0,
@@ -6901,7 +6901,7 @@
     },
     {
         "name": "Stop sign",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 0,
         "lvlreq": 0,
@@ -6913,7 +6913,7 @@
     },
     {
         "name": "Potion for Waif camp delivery",
-        "type": "gg",
+        "type": "Gloves Gem",
         "weight": 1,
         "price": 0,
         "lvlreq": 0,
@@ -6925,7 +6925,7 @@
     },
     {
         "name": "Special life regen potion",
-        "type": "c",
+        "type": "Consumable",
         "weight": 2,
         "price": 60,
         "lvlreq": 0,
@@ -6937,7 +6937,7 @@
     },
     {
         "name": "Potion for Swamp village delivery",
-        "type": "gg",
+        "type": "Gloves Gem",
         "weight": 1,
         "price": 0,
         "lvlreq": 0,
@@ -6949,7 +6949,7 @@
     },
     {
         "name": "Mikaela and Ricky memo",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6958,7 +6958,7 @@
     },
     {
         "name": "Ricky the funny man memo",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6967,7 +6967,7 @@
     },
     {
         "name": "Mikaela makes him happy memo",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6976,7 +6976,7 @@
     },
     {
         "name": "Ricky loves fries memo",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -6985,7 +6985,7 @@
     },
     {
         "name": "Lobo",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 7000,
         "lvlreq": 0,
@@ -6997,7 +6997,7 @@
     },
     {
         "name": "Mariposa",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 3000,
         "lvlreq": 0,
@@ -7009,7 +7009,7 @@
     },
     {
         "name": "Snail",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 5000,
         "lvlreq": 0,
@@ -7021,7 +7021,7 @@
     },
     {
         "name": "Angry blue",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 5000,
         "lvlreq": 0,
@@ -7033,7 +7033,7 @@
     },
     {
         "name": "Rock crabby",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 2000,
         "lvlreq": 0,
@@ -7045,7 +7045,7 @@
     },
     {
         "name": "Blue bug",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 5000,
         "lvlreq": 0,
@@ -7057,7 +7057,7 @@
     },
     {
         "name": "Lobo blue",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 7000,
         "lvlreq": 0,
@@ -7069,7 +7069,7 @@
     },
     {
         "name": "Road block cone",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7081,7 +7081,7 @@
     },
     {
         "name": "Mushroom hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7093,7 +7093,7 @@
     },
     {
         "name": "Mining helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7105,7 +7105,7 @@
     },
     {
         "name": "Tribe chief",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7117,7 +7117,7 @@
     },
     {
         "name": "Jester set",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7129,7 +7129,7 @@
     },
     {
         "name": "Paruru daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 7000,
         "lvlreq": 0,
@@ -7141,7 +7141,7 @@
     },
     {
         "name": "Muffin Puff daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 7000,
         "lvlreq": 0,
@@ -7153,7 +7153,7 @@
     },
     {
         "name": "Baby Dragon daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 7000,
         "lvlreq": 0,
@@ -7165,7 +7165,7 @@
     },
     {
         "name": "Sleeping",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7177,7 +7177,7 @@
     },
     {
         "name": "Snuggies",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7189,7 +7189,7 @@
     },
     {
         "name": "Stop",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7201,7 +7201,7 @@
     },
     {
         "name": "Welding",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7213,7 +7213,7 @@
     },
     {
         "name": "Flippy hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7225,7 +7225,7 @@
     },
     {
         "name": "Warrior band",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7237,7 +7237,7 @@
     },
     {
         "name": "Bug report token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 0,
         "lvlreq": 0,
@@ -7246,7 +7246,7 @@
     },
     {
         "name": "Magic stick",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 4,
         "price": 1,
         "lvlreq": 0,
@@ -7259,7 +7259,7 @@
     },
     {
         "name": "Arachnid claw",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -7268,7 +7268,7 @@
     },
     {
         "name": "Green fragment",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -7277,7 +7277,7 @@
     },
     {
         "name": "Beetle leg",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 75,
         "lvlreq": 0,
@@ -7286,7 +7286,7 @@
     },
     {
         "name": "Bug wing",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -7295,7 +7295,7 @@
     },
     {
         "name": "Insect wing",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 130,
         "lvlreq": 0,
@@ -7304,7 +7304,7 @@
     },
     {
         "name": "Nurua leaf",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 2,
         "price": 250,
         "lvlreq": 0,
@@ -7313,7 +7313,7 @@
     },
     {
         "name": "Pink leaf",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 160,
         "lvlreq": 0,
@@ -7322,7 +7322,7 @@
     },
     {
         "name": "Beetle horn",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -7331,7 +7331,7 @@
     },
     {
         "name": "Slimy web foot",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 200,
         "lvlreq": 0,
@@ -7340,7 +7340,7 @@
     },
     {
         "name": "Toadstool",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 155,
         "lvlreq": 0,
@@ -7349,7 +7349,7 @@
     },
     {
         "name": "Fungus powder",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 200,
         "lvlreq": 0,
@@ -7358,7 +7358,7 @@
     },
     {
         "name": "Mush spore",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 240,
         "lvlreq": 0,
@@ -7367,7 +7367,7 @@
     },
     {
         "name": "Skyray tail",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 4,
         "price": 180,
         "lvlreq": 0,
@@ -7376,7 +7376,7 @@
     },
     {
         "name": "Yellow stigma",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 1,
         "price": 140,
         "lvlreq": 0,
@@ -7385,7 +7385,7 @@
     },
     {
         "name": "Adamantine",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 6,
         "price": 132,
         "lvlreq": 0,
@@ -7394,7 +7394,7 @@
     },
     {
         "name": "Hard shell",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 7,
         "price": 200,
         "lvlreq": 0,
@@ -7403,7 +7403,7 @@
     },
     {
         "name": "Web bandana",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7415,7 +7415,7 @@
     },
     {
         "name": "Acrion top",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7427,7 +7427,7 @@
     },
     {
         "name": "Paper kabuto helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7439,7 +7439,7 @@
     },
     {
         "name": "Kabuto helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7451,7 +7451,7 @@
     },
     {
         "name": "Frog headgear",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7463,7 +7463,7 @@
     },
     {
         "name": "Mushy head",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7475,7 +7475,7 @@
     },
     {
         "name": "Gazet headgear",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7487,7 +7487,7 @@
     },
     {
         "name": "Gazet helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7499,7 +7499,7 @@
     },
     {
         "name": "Reptilian helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 2,
         "price": 500,
         "lvlreq": 0,
@@ -7511,7 +7511,7 @@
     },
     {
         "name": "Fly aragic",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7523,7 +7523,7 @@
     },
     {
         "name": "Destroying angel",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7535,7 +7535,7 @@
     },
     {
         "name": "Jack-o'-lantern",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7547,7 +7547,7 @@
     },
     {
         "name": "Clustered woodlover",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7559,7 +7559,7 @@
     },
     {
         "name": "The sickener",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7571,7 +7571,7 @@
     },
     {
         "name": "Yellow house plant",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7583,7 +7583,7 @@
     },
     {
         "name": "Ivory funnel",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7595,7 +7595,7 @@
     },
     {
         "name": "Satan's mushroom",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7607,7 +7607,7 @@
     },
     {
         "name": "False parasol",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7619,7 +7619,7 @@
     },
     {
         "name": "Conocybe tenera",
-        "type": "c",
+        "type": "Consumable",
         "weight": 3,
         "price": 26,
         "lvlreq": 0,
@@ -7631,7 +7631,7 @@
     },
     {
         "name": "Arachzida daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7643,7 +7643,7 @@
     },
     {
         "name": "Geno daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -7655,7 +7655,7 @@
     },
     {
         "name": "Mushintake daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7667,7 +7667,7 @@
     },
     {
         "name": "Minion Arachgiga daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7679,7 +7679,7 @@
     },
     {
         "name": "Minion Venom daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7691,7 +7691,7 @@
     },
     {
         "name": "Adamanteran daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7703,7 +7703,7 @@
     },
     {
         "name": "Blossom Dansa daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7715,7 +7715,7 @@
     },
     {
         "name": "Minion Aquaflyer daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7727,7 +7727,7 @@
     },
     {
         "name": "Blossom Chief daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7739,7 +7739,7 @@
     },
     {
         "name": "Nymph daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7751,7 +7751,7 @@
     },
     {
         "name": "Green Hopper daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7763,7 +7763,7 @@
     },
     {
         "name": "Nurua Bug daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7775,7 +7775,7 @@
     },
     {
         "name": "Sedemantine",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 300,
         "lvlreq": 0,
@@ -7784,7 +7784,7 @@
     },
     {
         "name": "Pure hard shell",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 200,
         "lvlreq": 0,
@@ -7793,7 +7793,7 @@
     },
     {
         "name": "White wing",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 110,
         "lvlreq": 0,
@@ -7802,7 +7802,7 @@
     },
     {
         "name": "Sedement",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 100,
         "lvlreq": 0,
@@ -7811,7 +7811,7 @@
     },
     {
         "name": "Igneous rock",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 120,
         "lvlreq": 0,
@@ -7820,7 +7820,7 @@
     },
     {
         "name": "Silver sting",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 150,
         "lvlreq": 0,
@@ -7829,7 +7829,7 @@
     },
     {
         "name": "Silver cocoon",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 160,
         "lvlreq": 0,
@@ -7838,7 +7838,7 @@
     },
     {
         "name": "Livestone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 185,
         "lvlreq": 0,
@@ -7847,7 +7847,7 @@
     },
     {
         "name": "Lava fragment",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 3,
         "price": 200,
         "lvlreq": 0,
@@ -7856,7 +7856,7 @@
     },
     {
         "name": "Lord Emerald daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -7868,7 +7868,7 @@
     },
     {
         "name": "Crystal Granite daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7880,7 +7880,7 @@
     },
     {
         "name": "White Winger daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7892,7 +7892,7 @@
     },
     {
         "name": "Rockgeiger daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7904,7 +7904,7 @@
     },
     {
         "name": "Crystal Adamant daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7916,7 +7916,7 @@
     },
     {
         "name": "Silvermane daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7928,7 +7928,7 @@
     },
     {
         "name": "Stone Wasp daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7940,7 +7940,7 @@
     },
     {
         "name": "Rockshroom daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7952,7 +7952,7 @@
     },
     {
         "name": "Black Rodent daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7964,7 +7964,7 @@
     },
     {
         "name": "Rock Insecta daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 100,
         "lvlreq": 0,
@@ -7976,7 +7976,7 @@
     },
     {
         "name": "Punyal",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -7985,7 +7985,7 @@
     },
     {
         "name": "Golden bee ornament",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -7994,7 +7994,7 @@
     },
     {
         "name": "Wild serene flower",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8003,7 +8003,7 @@
     },
     {
         "name": "Wild Kabute",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8012,7 +8012,7 @@
     },
     {
         "name": "Meteoric stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8021,7 +8021,7 @@
     },
     {
         "name": "Egg de paruru",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8030,7 +8030,7 @@
     },
     {
         "name": "Cash collection",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8039,7 +8039,7 @@
     },
     {
         "name": "Bloodbond",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 500000,
         "lvlreq": 0,
@@ -8048,7 +8048,7 @@
     },
     {
         "name": "Bloodlust",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 150000,
         "lvlreq": 0,
@@ -8057,7 +8057,7 @@
     },
     {
         "name": "Bloodstone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 15000,
         "lvlreq": 0,
@@ -8066,7 +8066,7 @@
     },
     {
         "name": "Valzeon Invasion absence memo",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8075,7 +8075,7 @@
     },
     {
         "name": "Valzeon Invasion inactivity memo",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8084,7 +8084,7 @@
     },
     {
         "name": "Agawan Base absence memo",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8093,7 +8093,7 @@
     },
     {
         "name": "Agawan Base inactivity memo",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8102,7 +8102,7 @@
     },
     {
         "name": "Echo stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8111,7 +8111,7 @@
     },
     {
         "name": "Alibi report",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8120,7 +8120,7 @@
     },
     {
         "name": "Broken pipeline",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8129,7 +8129,7 @@
     },
     {
         "name": "Flare stone",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8138,7 +8138,7 @@
     },
     {
         "name": "Evidence rock",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8147,7 +8147,7 @@
     },
     {
         "name": "Special sleep hat",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 0,
         "lvlreq": 0,
@@ -8156,7 +8156,7 @@
     },
     {
         "name": "Energy seal",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 500,
         "price": 10000,
         "lvlreq": 0,
@@ -8168,7 +8168,7 @@
     },
     {
         "name": "1st year Anniversary gem",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 60,
         "price": 100,
         "lvlreq": 0,
@@ -8180,7 +8180,7 @@
     },
     {
         "name": "Anniversary crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 20000,
         "lvlreq": 10,
@@ -8192,7 +8192,7 @@
     },
     {
         "name": "Anniversary halo",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 40000,
         "lvlreq": 10,
@@ -8204,7 +8204,7 @@
     },
     {
         "name": "Anniversary in the Navy",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 10000,
         "lvlreq": 10,
@@ -8216,7 +8216,7 @@
     },
     {
         "name": "Anniversary feather",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 12000,
         "lvlreq": 10,
@@ -8228,7 +8228,7 @@
     },
     {
         "name": "Red bucket helm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 10,
@@ -8240,7 +8240,7 @@
     },
     {
         "name": "Red mariposa daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8252,7 +8252,7 @@
     },
     {
         "name": "Call center headset",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 6,
         "price": 0,
         "lvlreq": 0,
@@ -8264,7 +8264,7 @@
     },
     {
         "name": "Anniversary shades",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 10000,
         "lvlreq": 10,
@@ -8276,7 +8276,7 @@
     },
     {
         "name": "Anniversary bonnet",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 8000,
         "lvlreq": 10,
@@ -8288,7 +8288,7 @@
     },
     {
         "name": "Pumpkin head",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 80000,
         "lvlreq": 0,
@@ -8300,7 +8300,7 @@
     },
     {
         "name": "Hilda witch hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 70000,
         "lvlreq": 0,
@@ -8312,7 +8312,7 @@
     },
     {
         "name": "Skully face",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 50000,
         "lvlreq": 0,
@@ -8324,7 +8324,7 @@
     },
     {
         "name": "Toy horn",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 500,
         "lvlreq": 0,
@@ -8336,7 +8336,7 @@
     },
     {
         "name": "Camera hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 5000,
         "lvlreq": 10,
@@ -8348,7 +8348,7 @@
     },
     {
         "name": "Flippy corder lead",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8360,7 +8360,7 @@
     },
     {
         "name": "Flippy corder",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8372,7 +8372,7 @@
     },
     {
         "name": "Flippy corder assistant",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8384,7 +8384,7 @@
     },
     {
         "name": "Flippy king drummer",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8396,7 +8396,7 @@
     },
     {
         "name": "Flippy knight trumpeteer",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8408,7 +8408,7 @@
     },
     {
         "name": "Flippy singer",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8420,7 +8420,7 @@
     },
     {
         "name": "Flippy master painter",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8432,7 +8432,7 @@
     },
     {
         "name": "Flippy pro painter",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8444,7 +8444,7 @@
     },
     {
         "name": "Flippy painter",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -8456,7 +8456,7 @@
     },
     {
         "name": "Starband",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 17000,
         "lvlreq": 0,
@@ -8468,7 +8468,7 @@
     },
     {
         "name": "Boxtop",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 3000,
         "lvlreq": 0,
@@ -8480,7 +8480,7 @@
     },
     {
         "name": "Bellband",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 48000,
         "lvlreq": 0,
@@ -8492,7 +8492,7 @@
     },
     {
         "name": "Too cold",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 80000,
         "lvlreq": 0,
@@ -8504,7 +8504,7 @@
     },
     {
         "name": "Blues of Christmas",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 130000,
         "lvlreq": 0,
@@ -8516,7 +8516,7 @@
     },
     {
         "name": "Rhythms of Christmas",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 60000,
         "lvlreq": 0,
@@ -8528,7 +8528,7 @@
     },
     {
         "name": "Xmas-tree hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 9000,
         "lvlreq": 0,
@@ -8540,7 +8540,7 @@
     },
     {
         "name": "Xmas-box",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 39000,
         "lvlreq": 0,
@@ -8552,7 +8552,7 @@
     },
     {
         "name": "Parol",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 5000,
         "lvlreq": 0,
@@ -8564,7 +8564,7 @@
     },
     {
         "name": "Christmas gem",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 60,
         "price": 100,
         "lvlreq": 0,
@@ -8576,7 +8576,7 @@
     },
     {
         "name": "Fountain hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 4000,
         "lvlreq": 0,
@@ -8588,7 +8588,7 @@
     },
     {
         "name": "Fruit hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 79000,
         "lvlreq": 0,
@@ -8600,7 +8600,7 @@
     },
     {
         "name": "Bomb hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 27000,
         "lvlreq": 0,
@@ -8612,7 +8612,7 @@
     },
     {
         "name": "Plapla hat",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 9000,
         "lvlreq": 0,
@@ -8624,7 +8624,7 @@
     },
     {
         "name": "Bomb",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 39000,
         "lvlreq": 0,
@@ -8636,7 +8636,7 @@
     },
     {
         "name": "Dynamite",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 39000,
         "lvlreq": 0,
@@ -8648,7 +8648,7 @@
     },
     {
         "name": "Techno hearts",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2000,
         "lvlreq": 0,
@@ -8660,7 +8660,7 @@
     },
     {
         "name": "Throb shades",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 19000,
         "lvlreq": 0,
@@ -8672,7 +8672,7 @@
     },
     {
         "name": "Who's that girl?",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 29000,
         "lvlreq": 0,
@@ -8684,7 +8684,7 @@
     },
     {
         "name": "Romantic mask",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 195000,
         "lvlreq": 0,
@@ -8696,7 +8696,7 @@
     },
     {
         "name": "My heart is yours",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 9000,
         "lvlreq": 0,
@@ -8708,7 +8708,7 @@
     },
     {
         "name": "Your heart is mine",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 9000,
         "lvlreq": 0,
@@ -8720,7 +8720,7 @@
     },
     {
         "name": "Nexus Berserk",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 180,
         "price": 100,
         "lvlreq": 0,
@@ -8732,7 +8732,7 @@
     },
     {
         "name": "Nexus Chakra",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 300,
         "price": 100,
         "lvlreq": 0,
@@ -8744,7 +8744,7 @@
     },
     {
         "name": "Nexus Soul",
-        "type": "gd",
+        "type": "Daemon Gem",
         "weight": 600,
         "price": 100,
         "lvlreq": 0,
@@ -8756,7 +8756,7 @@
     },
     {
         "name": "Guise",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8768,7 +8768,7 @@
     },
     {
         "name": "Fury",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8780,7 +8780,7 @@
     },
     {
         "name": "Eden",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8792,7 +8792,7 @@
     },
     {
         "name": "Icarum",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8804,7 +8804,7 @@
     },
     {
         "name": "Nexus token",
-        "type": "i",
+        "type": "Appraisal",
         "weight": 0,
         "price": 1,
         "lvlreq": 0,
@@ -8813,7 +8813,7 @@
     },
     {
         "name": "Extremity gem",
-        "type": "ga",
+        "type": "Armor Gem",
         "weight": 1200,
         "price": 100,
         "lvlreq": 0,
@@ -8825,7 +8825,7 @@
     },
     {
         "name": "Amazeon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8837,7 +8837,7 @@
     },
     {
         "name": "Hunter",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8849,7 +8849,7 @@
     },
     {
         "name": "Fujin",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8861,7 +8861,7 @@
     },
     {
         "name": "Orion",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8873,7 +8873,7 @@
     },
     {
         "name": "Nexus Titan",
-        "type": "gh",
+        "type": "Headgear Gem",
         "weight": 100,
         "price": 100,
         "lvlreq": 0,
@@ -8885,7 +8885,7 @@
     },
     {
         "name": "Romantic mask",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8897,7 +8897,7 @@
     },
     {
         "name": "Leaf of Happiness",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8909,7 +8909,7 @@
     },
     {
         "name": "Leaf of Prosperity",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8921,7 +8921,7 @@
     },
     {
         "name": "Granadian Angel",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8933,7 +8933,7 @@
     },
     {
         "name": "Phantom of Christmas",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8945,7 +8945,7 @@
     },
     {
         "name": "Heavenly Phantom",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8957,7 +8957,7 @@
     },
     {
         "name": "Angelic Fallal",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -8969,7 +8969,7 @@
     },
     {
         "name": "Starband 2012 edition",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 5000,
         "lvlreq": 0,
@@ -8981,7 +8981,7 @@
     },
     {
         "name": "Oppa Raindeer Style",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 10000,
         "lvlreq": 0,
@@ -8993,7 +8993,7 @@
     },
     {
         "name": "Leaf hat Christmas edition",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 500,
         "lvlreq": 0,
@@ -9005,7 +9005,7 @@
     },
     {
         "name": "I am a rednose player",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2000,
         "lvlreq": 0,
@@ -9017,7 +9017,7 @@
     },
     {
         "name": "Baby Dragon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9029,7 +9029,7 @@
     },
     {
         "name": "Baby Wolf",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9041,7 +9041,7 @@
     },
     {
         "name": "Baby Falcon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9053,7 +9053,7 @@
     },
     {
         "name": "Baby Phoenix",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9065,7 +9065,7 @@
     },
     {
         "name": "Naga",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9077,7 +9077,7 @@
     },
     {
         "name": "Warg",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9089,7 +9089,7 @@
     },
     {
         "name": "Zethecotl",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9101,7 +9101,7 @@
     },
     {
         "name": "Vermillion",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9113,7 +9113,7 @@
     },
     {
         "name": "Lynx",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9125,7 +9125,7 @@
     },
     {
         "name": "Serenity",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9137,7 +9137,7 @@
     },
     {
         "name": "Master Paruru",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9149,7 +9149,7 @@
     },
     {
         "name": "Celestial Arch",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9161,7 +9161,7 @@
     },
     {
         "name": "Nexus Infinity",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9173,7 +9173,7 @@
     },
     {
         "name": "Mercuric Star",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9185,7 +9185,7 @@
     },
     {
         "name": "Last Paradox",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9197,7 +9197,7 @@
     },
     {
         "name": "Purple hearty hat 2013",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -9209,7 +9209,7 @@
     },
     {
         "name": "Blue hearty hat 2013",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 3,
         "price": 500,
         "lvlreq": 0,
@@ -9221,7 +9221,7 @@
     },
     {
         "name": "Myuwyvern",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9233,7 +9233,7 @@
     },
     {
         "name": "Fenrir",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9245,7 +9245,7 @@
     },
     {
         "name": "Aeolus",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9257,7 +9257,7 @@
     },
     {
         "name": "Garuda",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9269,7 +9269,7 @@
     },
     {
         "name": "Mechidon grub",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 1000,
         "lvlreq": 0,
@@ -9281,7 +9281,7 @@
     },
     {
         "name": "Mizeto Fly",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 9000,
         "lvlreq": 0,
@@ -9293,7 +9293,7 @@
     },
     {
         "name": "Haraya Sprout",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 3000,
         "lvlreq": 0,
@@ -9305,7 +9305,7 @@
     },
     {
         "name": "Cloyum Sprout",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 7000,
         "lvlreq": 0,
@@ -9317,7 +9317,7 @@
     },
     {
         "name": "Arrowhead",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 12000,
         "lvlreq": 0,
@@ -9329,7 +9329,7 @@
     },
     {
         "name": "Mogirri",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 32000,
         "lvlreq": 0,
@@ -9341,7 +9341,7 @@
     },
     {
         "name": "Migichu",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 21000,
         "lvlreq": 0,
@@ -9353,7 +9353,7 @@
     },
     {
         "name": "Michu",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 16000,
         "lvlreq": 0,
@@ -9365,7 +9365,7 @@
     },
     {
         "name": "Dessert Grim",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 26000,
         "lvlreq": 0,
@@ -9377,7 +9377,7 @@
     },
     {
         "name": "Halo-halo ni Lola",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 9000,
         "lvlreq": 0,
@@ -9389,7 +9389,7 @@
     },
     {
         "name": "Payong Protection",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 3000,
         "lvlreq": 0,
@@ -9401,7 +9401,7 @@
     },
     {
         "name": "Kabayan Aircon",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 16800,
         "lvlreq": 0,
@@ -9413,7 +9413,7 @@
     },
     {
         "name": "Abaniko Headdress",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 700,
         "lvlreq": 0,
@@ -9425,7 +9425,7 @@
     },
     {
         "name": "3rd Anniversary Ring",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9437,7 +9437,7 @@
     },
     {
         "name": "P-Cake",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9449,7 +9449,7 @@
     },
     {
         "name": "A-Cake",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9461,7 +9461,7 @@
     },
     {
         "name": "C-Cake",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9473,7 +9473,7 @@
     },
     {
         "name": "I-Cake",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9485,7 +9485,7 @@
     },
     {
         "name": "F-Cake",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9497,7 +9497,7 @@
     },
     {
         "name": "Nexus boy",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 15,
         "price": 26000,
         "lvlreq": 0,
@@ -9509,7 +9509,7 @@
     },
     {
         "name": "Xmas",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9521,7 +9521,7 @@
     },
     {
         "name": "Scarf",
-        "type": "en",
+        "type": "Necklace",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9533,7 +9533,7 @@
     },
     {
         "name": "Crazy for you",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9545,7 +9545,7 @@
     },
     {
         "name": "syamplez2",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9557,7 +9557,7 @@
     },
     {
         "name": "Happy Mouse",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9569,7 +9569,7 @@
     },
     {
         "name": "Happy Bear",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9581,7 +9581,7 @@
     },
     {
         "name": "Happy Hamster",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9593,7 +9593,7 @@
     },
     {
         "name": "syamplez6",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 2,
         "lvlreq": 0,
@@ -9605,7 +9605,7 @@
     },
     {
         "name": "Winter Bonnet",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 1,
         "lvlreq": 0,
@@ -9617,7 +9617,7 @@
     },
     {
         "name": "Demon Slayer",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 90,
         "price": 0,
         "lvlreq": 67,
@@ -9630,7 +9630,7 @@
     },
     {
         "name": "Tetra Gravity",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 90,
         "price": 0,
         "lvlreq": 67,
@@ -9643,7 +9643,7 @@
     },
     {
         "name": "Warlod's Grudge",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 90,
         "price": 0,
         "lvlreq": 67,
@@ -9656,7 +9656,7 @@
     },
     {
         "name": "Soul of Thousand Shadows",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 70,
         "price": 0,
         "lvlreq": 67,
@@ -9669,7 +9669,7 @@
     },
     {
         "name": "The Immortal Kiss",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 40,
         "price": 0,
         "lvlreq": 67,
@@ -9682,7 +9682,7 @@
     },
     {
         "name": "Code of Brotherhood",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 40,
         "price": 0,
         "lvlreq": 67,
@@ -9695,7 +9695,7 @@
     },
     {
         "name": "Claw of the Serpent King",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 40,
         "price": 0,
         "lvlreq": 67,
@@ -9708,7 +9708,7 @@
     },
     {
         "name": "Eternal Promise",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 40,
         "price": 0,
         "lvlreq": 67,
@@ -9721,7 +9721,7 @@
     },
     {
         "name": "Deathly Storm",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 0,
         "lvlreq": 67,
@@ -9734,7 +9734,7 @@
     },
     {
         "name": "Bringer of Chaos",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 0,
         "lvlreq": 67,
@@ -9747,7 +9747,7 @@
     },
     {
         "name": "Twisted Agony",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 0,
         "lvlreq": 67,
@@ -9760,7 +9760,7 @@
     },
     {
         "name": "Cosmic Interference",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 50,
         "price": 0,
         "lvlreq": 67,
@@ -9773,7 +9773,7 @@
     },
     {
         "name": "Angel's Whisper",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 60,
         "price": 0,
         "lvlreq": 67,
@@ -9786,7 +9786,7 @@
     },
     {
         "name": "Celestial Grievance",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 60,
         "price": 0,
         "lvlreq": 67,
@@ -9799,7 +9799,7 @@
     },
     {
         "name": "Sky Dragon Scepter",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 60,
         "price": 0,
         "lvlreq": 67,
@@ -9812,7 +9812,7 @@
     },
     {
         "name": "Fallen Star",
-        "type": "ew",
+        "type": "Weapon",
         "weight": 60,
         "price": 0,
         "lvlreq": 67,
@@ -9825,7 +9825,7 @@
     },
     {
         "name": "Barbaric Mighty Gauntlet",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -9837,7 +9837,7 @@
     },
     {
         "name": "Life Force Gauntlet",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -9849,7 +9849,7 @@
     },
     {
         "name": "Sniper's Pride Gauntlet",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -9861,7 +9861,7 @@
     },
     {
         "name": "Speed Demon's Gauntlet",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -9873,7 +9873,7 @@
     },
     {
         "name": "Sage Gauntlet",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -9885,7 +9885,7 @@
     },
     {
         "name": "Mind Wall Gauntlet",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -9897,7 +9897,7 @@
     },
     {
         "name": "Shadow Gauntlet",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -9909,7 +9909,7 @@
     },
     {
         "name": "Fortune Gauntlet",
-        "type": "eg",
+        "type": "Gloves",
         "weight": 2,
         "price": 0,
         "lvlreq": 0,
@@ -9921,7 +9921,7 @@
     },
     {
         "name": "Metal One's Plate",
-        "type": "ea",
+        "type": "Armor",
         "weight": 18,
         "price": 0,
         "lvlreq": 0,
@@ -9934,7 +9934,7 @@
     },
     {
         "name": "Speed Demon's",
-        "type": "ea",
+        "type": "Armor",
         "weight": 7,
         "price": 0,
         "lvlreq": 0,
@@ -9947,7 +9947,7 @@
     },
     {
         "name": "Sniper God's Vigor",
-        "type": "ea",
+        "type": "Armor",
         "weight": 14,
         "price": 0,
         "lvlreq": 0,
@@ -9960,7 +9960,7 @@
     },
     {
         "name": "Arcane Devotion",
-        "type": "ea",
+        "type": "Armor",
         "weight": 6,
         "price": 0,
         "lvlreq": 0,
@@ -9973,7 +9973,7 @@
     },
     {
         "name": "Dragon Slayer's Carapace",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9985,7 +9985,7 @@
     },
     {
         "name": "Beast King's Symphony",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -9997,7 +9997,7 @@
     },
     {
         "name": "Falcon Lord's Pinion",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -10009,7 +10009,7 @@
     },
     {
         "name": "Fire Guardian's Crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -10021,7 +10021,7 @@
     },
     {
         "name": "Dragon Slayer's High Carapace",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -10033,7 +10033,7 @@
     },
     {
         "name": "Beast King's Roaring Symphony",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -10045,7 +10045,7 @@
     },
     {
         "name": "Falcon Lord's Eternal Pinion",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -10057,7 +10057,7 @@
     },
     {
         "name": "Fire Guardian's Vile Crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -10069,7 +10069,7 @@
     },
     {
         "name": "Dragon Slayer's Sky Carapace",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -10081,7 +10081,7 @@
     },
     {
         "name": "Beast King's Trembling Symphony",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -10093,7 +10093,7 @@
     },
     {
         "name": "Falcon Lord's Legendary Pinion",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -10105,7 +10105,7 @@
     },
     {
         "name": "Fire Guardian's Vulcanic Crown",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -10117,7 +10117,7 @@
     },
     {
         "name": "Dragon Slayer's Carapace of the Zenith",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -10129,7 +10129,7 @@
     },
     {
         "name": "Beast King's Symphony of the Storm",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 15,
         "price": 0,
         "lvlreq": 0,
@@ -10141,7 +10141,7 @@
     },
     {
         "name": "Falcon Lord's Pinion of the Immortals",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -10153,7 +10153,7 @@
     },
     {
         "name": "Fire Guardian's Crown of Radiance",
-        "type": "eh",
+        "type": "Headgear",
         "weight": 5,
         "price": 0,
         "lvlreq": 0,
@@ -10165,7 +10165,7 @@
     },
     {
         "name": "Ziltoise Daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -10177,7 +10177,7 @@
     },
     {
         "name": "Zil Defender Daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -10189,7 +10189,7 @@
     },
     {
         "name": "Proto Genome Daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -10201,7 +10201,7 @@
     },
     {
         "name": "Grand Ziltron Daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -10213,7 +10213,7 @@
     },
     {
         "name": "Rabbit Daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
@@ -10225,7 +10225,7 @@
     },
     {
         "name": "Panda Daemon",
-        "type": "ed",
+        "type": "Daemon",
         "weight": 10,
         "price": 0,
         "lvlreq": 0,
