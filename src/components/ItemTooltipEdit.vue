@@ -1,40 +1,59 @@
 <template>
-    <b-tooltip :show.sync="show" :target="target" :no-fade="true" placement="right" delay="0" triggers="hover" @show="$emit('show', $event)">
+    <b-tooltip :show.sync="show" :target="target" :no-fade="true" placement="right" delay="0" triggers="hover click" @show="$emit('show', $event)">
         <div>
-            <b-container class="item-info">
-                <b-row no-gutters>
-                    <b-col :cols="12" class="item-name"> {{ item.name }} </b-col>
-                </b-row>
-                <b-row no-gutters>
-                    <b-col :cols="3" class="item-img"><img :src="itemImg" width="70"></b-col>
-                    <b-col class="item-stat">
-                        <div>Type: {{ item.type }}</div>
-                        <div>
-                            <div class="d-inline-block" style="min-width: 50px">Price: P{{ item.price }}
+            <div v-if="edit">
+                <div>
+                    <img :src="itemImg" width="70">
+                </div>
+                <h5>What is the name of this item?</h5>
+                <input ref="input" type="text" @keyup.enter.prevent="submitName($event.target.value)" list="itemdesc"
+                       autocomplete="off" :value="item ? item.name : ''">
+                <div class="my-2">
+                    <b-btn class="mr-2" variant="danger" @click.prevent="submitName($refs.input.value)">Save</b-btn>
+                    <b-btn v-if="forceEdit" @click.prevent="forceEdit = false">Cancel</b-btn>
+                </div>
+                <datalist id="itemdesc">
+                    <option v-for="iteml in itemslist" :key="iteml.hash">{{ iteml.name }}</option>
+                </datalist>
+            </div>
+            <div v-else>
+                <b-container class="item-info">
+                    <b-row no-gutters>
+                        <b-col :cols="12" class="item-name">
+                            <a href="#" class="float-right mr-3 text-danger" @click.prevent="enableEditMode" v-if="item.approval">change</a>
+                            {{ item.name }}
+                        </b-col>
+                    </b-row>
+                    <b-row no-gutters>
+                        <b-col :cols="3" class="item-img"><img :src="itemImg" width="70"></b-col>
+                        <b-col class="item-stat">
+                            <div>Type: {{ item.type }}</div>
+                            <div>
+                                <div class="d-inline-block" style="min-width: 50px">Price: P{{ item.price }}
+                                </div>
+                                <div class="d-inline-block" style="margin-left: 10px">Weight: {{ item.weight }}
+                                </div>
                             </div>
-                            <div class="d-inline-block" style="margin-left: 10px">Weight: {{ isGem ? '5' : item.weight }}
+                            <div>Sell Price: P{{ Math.floor(item.price / 2) }}</div>
+                            <div>Req'd Class: {{ item.classreq || 'General' }}</div>
+                            <div>Required Level: {{ item.lvlreq || '0' }}</div>
+                        </b-col>
+                    </b-row>
+                    <b-row no-gutters>
+                        <b-col :cols="12" class="item-desc">
+                            <div>
+                                <p  class="m-0 p-0" v-html="descOrCol2 && descOrCol2.replace(/\\n/gi, '<br>') || '<em>No description.</em>'"></p>
+                                <template v-if="item.stats && typeof item.stats === 'string'">
+                                    <p class="ml-1 mt-2 mb-1 text-danger">
+                                        <strong>Effects:</strong>
+                                    </p>
+                                    <p class="ml-2 text-danger" v-html="formatStats(item.stats)"></p>
+                                </template>
                             </div>
-                        </div>
-                        <div>Sell Price: P{{ Math.floor(item.price / 2) }}</div>
-                        <div>Req'd Class: {{ item.classreq || 'General' }}</div>
-                        <div>Required Level: {{ item.lvlreq || '0' }}</div>
-                        <div v-if="isGem">Chakra: {{ item.weight }}</div>
-                    </b-col>
-                </b-row>
-                <b-row no-gutters>
-                    <b-col :cols="12" class="item-desc">
-                        <div>
-                            <p  class="m-0 p-0" v-html="descOrCol2 && descOrCol2.replace(/\\n/gi, '<br>') || '<em>No description.</em>'"></p>
-                            <template v-if="item.stats && typeof item.stats === 'string'">
-                                <p class="ml-1 mt-2 mb-1 text-danger">
-                                    <strong>Effects:</strong>
-                                </p>
-                                <p class="ml-2 text-danger" v-html="formatStats(item.stats)"></p>
-                            </template>
-                        </div>
-                    </b-col>
-                </b-row>
-            </b-container>
+                        </b-col>
+                    </b-row>
+                </b-container>
+            </div>
         </div>
     </b-tooltip>
 </template>
@@ -42,22 +61,37 @@
 <script>
 
     import Case from 'case'
+    import _ from 'lodash'
 
 
     export default {
         props: {
             target: String,
-            item: Object,
-
+            name: String,
+            id: null,
+            editMode: {
+                type: Boolean,
+                default: false
+            }
         },
         data() {
           return {
-              show: false
+              show: false,
+              forceEdit: false
           }
         },
         computed: {
-            isGem() {
-                return this.item.type.endsWith('Gem');
+            itemId() {
+                return this.id || this.item.id;
+            },
+            edit() {
+              return this.editMode || this.forceEdit;
+            },
+            itemslist() {
+              return this.$store.state.items
+            },
+            item() {
+                return _.find(this.itemslist, ['name', this.name]);
             },
             descOrCol2() {
 
@@ -71,7 +105,12 @@
 
                 let images = require.context('../assets/items', false, /\.png$/);
 
-                if (this.item.type === 'Daemon') {
+                if (this.edit) {
+                    return images('./' + this.itemId + ".png");
+                }
+
+
+                if (this.item.type === 'ed') {
                     return require('../assets/items/161.png')
                 } else if (this.item.id && images.keys().indexOf(`./${this.item.id}.png`) !== -1) {
                     return images('./' + this.item.id + ".png")
@@ -195,6 +234,25 @@
 
                     return 0;
                 }).join('<br>')
+            },
+            submitName(value) {
+                let item = _.find(this.itemslist, ['name', value]);
+
+                if (item) {
+                    if (!item.id) {
+                        this.$emit('submit', { id: this.itemId, name: value});
+                        this.show = false;
+                    } else if (item.id !== this.itemId) {
+                        alert('This item name has already been assigned to an another item.\nItem ID: ' + item.id)
+                    } else {
+                        this.forceEdit = false;
+                    }
+                } else {
+                    alert('Item not found!\nMake sure that the item name is on the list!')
+                }
+            },
+            enableEditMode() {
+                this.forceEdit = true;
             }
 
         }

@@ -5,6 +5,17 @@
         <div class="mb-2">
             <b-input placeholder="Search for an item... e.g Crab Helm" v-model="query"></b-input>
         </div>
+        <div class="mb-3">
+            <a href="#" @click.prevent="query = ''" class="float-right text-danger font-weight-bold" v-if="query.trim().length">
+                <small>Clear filter</small>
+            </a>
+            Filter:
+            <featured-dropdown @select="filter($event)"/>
+            <equipment-dropdown @select="filter($event)"/>
+            <gem-dropdown @select="filter($event)" class="ml-2"/>
+            <consumable-dropdown @select="filter($event)" class="ml-2"/>
+            <appraisal-dropdown @select="filter($event)" class="ml-2"/>
+        </div>
 
         <b-table
                 :fields="fields"
@@ -25,18 +36,18 @@
                 </div>
                 <item-tooltip
                         :target="`item-${data.item.hash}`"
-                        :name="data.item.name"
+                        :item="data.item"
                 ></item-tooltip>
             </template>
         </b-table>
-        <b-pagination-nav :link-gen="linkGen" :number-of-pages="Math.ceil(filtered.length / perPage)"
-                          use-router></b-pagination-nav>
+        <b-pagination-nav :link-gen="linkGen" :number-of-pages="noOfPages" v-if="noOfPages > 1" use-router></b-pagination-nav>
 
 
     </page-container>
 </template>
 
 <script>
+
 
     export default {
         data() {
@@ -88,18 +99,19 @@
         },
         watch   : {
             query() {
-                try {
-                    this.$router.replace({
-                         query: {
-                             page: undefined
-                         }
-                     })
-                } catch (e) {
+                this.$router.replace({
+                     query: {
+                         page: undefined
+                     }
+                 }).catch(() => {
 
-                }
+                })
             }
         },
         computed: {
+            noOfPages() {
+              return Math.ceil(this.filtered.length / this.perPage);
+            },
             currentPage() {
                 return this.$route.query.page || 1;
             },
@@ -108,70 +120,63 @@
             },
             filtered() {
 
-                let query = this.query;
+                let dorks,dork_types = ['type', 'class', 'featured'];
 
-                let dorks = this.dorks.map(dork => dork.key);
+                let pattern = new RegExp(`\\[((?:${dork_types.join('|')}):[^\\]]+)\\]`, 'g');
 
 
-                if (query.indexOf(":") !== -1) {
-                    let regex = new RegExp(`((?:${dorks.join('|')}):(?:(?!${dorks.join('|')}).)+)`, "g");
-
-                    let match;
-
-                    if (match = this.query.match(regex)) {
-                        query = match.reduce((obj, val) => {
-                            let [k, v] = val.split(":", 2);
-                            obj[k] = v;
-                            return obj
-                        }, {});
-
-                    }
-
+                if (dorks = this.query.match(pattern)) {
+                    dorks = dorks.reduce((obj, dork) => {
+                        let [k,v] = dork.replace(/[\[\]]/g, '').trim().split(':', 2);
+                        obj[k] = v;
+                        return obj;
+                    }, {});
                 }
 
+                let query = this.query.replace(pattern, '').trim().replace(/\s+/g, ' ').split(' ');
 
-                console.log(query)
 
                 return this.items.filter(item => {
-                    return JSON.stringify(item).toLowerCase().indexOf(query.toLowerCase()) !== -1;
+                    let tokens = JSON.stringify(item).toLowerCase();
+
+                    for (let key in dorks) {
+                        if (dorks.hasOwnProperty(key)) {
+
+                            let itemKey = key;
+                            switch (key) {
+                                case 'class':
+                                    itemKey = 'classreq';
+                                    break;
+                            }
+
+                            let itema = item[itemKey], itemb = dorks[key];
+
+                            if (typeof itema === 'string') {
+                                itema = itema.toLowerCase();
+                            }
+                            if (typeof itemb === 'string') {
+                                itemb = itemb.toLowerCase();
+                            }
+
+                            if (itemb === "true" || itemb === "false") {
+                                itemb = itemb === "true";
+                            }
+
+
+                            if (itema !== itemb) return false;
+                        }
+                    }
+
+                    for (let i=0;i<query.length;i++) {
+                        if (tokens.indexOf(query[i].toLowerCase().trim()) !== -1) return true;
+                    }
+
+                    return false;
                 })
             }
         },
         mounted() {
 
-            // this.user = prompt("Please enter your name");
-
-            this.db.ref('/items').on('value', (snapshot) => {
-                let entries = snapshot.val();
-
-                for (let id in entries) {
-                    if (entries.hasOwnProperty(id)) {
-                        let name = entries[id];
-
-                        switch (typeof name) {
-                            case 'string':
-                                this.$store.commit('mapItem', {name, id});
-                                break;
-                            case 'object':
-                                let sent_entries = Object.values(name);
-                                this.$store.commit('mapItem', {
-                                    name    : sent_entries[sent_entries.length - 1].name,
-                                    id,
-                                    approval: true
-                                });
-                                break;
-                        }
-
-                    }
-                }
-
-
-            });
-
-
-        },
-        beforeDestroy() {
-            this.db.ref('/items').off('value');
         },
         methods : {
             getItemImg(item) {
@@ -188,8 +193,31 @@
             },
             linkGen(pageNum) {
                 return pageNum === 1 ? '?' : `?page=${pageNum}`
+            },
+            filter(obj) {
+
+                if (obj.clear) {
+                    this.query = '';
+                    delete obj.clear
+                }
+
+                for (let type in obj) {
+                    if (obj.hasOwnProperty(type)) {
+                        let value = obj[type];
+
+                        let s = `[${type}:${value}]`;
+
+                        if (this.query.indexOf(s) === -1) {
+                            this.query += `${s} `
+                        }
+                    }
+                }
+
+
+
             }
         }
+
     }
 </script>
 

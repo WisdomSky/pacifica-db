@@ -58,7 +58,7 @@
 
 <script>
 
-    import items from './assets/items.mapped'
+    import items from './assets/items.mapped2'
 
     export default {
 

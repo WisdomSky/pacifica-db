@@ -28,6 +28,9 @@ Vue.component('VueGallery', VueGallery);
 import {VueMasonryPlugin} from 'vue-masonry';
 Vue.use(VueMasonryPlugin)
 
+import Dropdown from 'bp-vuejs-dropdown';
+Vue.component('dropdown', Dropdown)
+
 
 import components from '@/components'
 

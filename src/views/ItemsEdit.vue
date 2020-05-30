@@ -11,11 +11,11 @@
         <div v-masonry transition-duration="0" item-selector=".item" class="masonry-container">
             <div v-masonry-tile class="item" :key="item.hash" v-for="(item, index) in items" v-if="categorized" :class="{approval: item.approval}">
                 <img :id="`item-${item.hash}`" :src="getItemImgByName(item.name)">
-                <item-tooltip :target="`item-${item.hash}`" :name="item.name" @submit="saveItemName"></item-tooltip>
+                <item-tooltip-edit :target="`item-${item.hash}`" :name="item.name" @submit="saveItemName"></item-tooltip-edit>
             </div>
             <div v-masonry-tile class="item" :key="id" v-for="id in items" v-if="!categorized">
                 <img :id="`item-${id}`" :src="getItemImgById(id)">
-                <item-tooltip :target="`item-${id}`" :id="id" :edit-mode="true" @submit="saveItemName"></item-tooltip>
+                <item-tooltip-edit :target="`item-${id}`" :id="id" :edit-mode="true" @submit="saveItemName"></item-tooltip-edit>
             </div>
 
         </div>
@@ -42,7 +42,8 @@
                 perpage    : 100,
                 user       : "",
                 categorized: true,
-                db         : fbapp.database()
+                db         : fbapp.database(),
+                contributors: {}
             }
         },
         watch: {
@@ -83,11 +84,12 @@
         },
         mounted() {
 
-            this.user = prompt("Please enter your name");
+            // this.user = prompt("Please enter your name");
+
+
 
             this.db.ref('/items').on('value', (snapshot) => {
                 let entries = snapshot.val();
-
                 for (let id in entries) {
                     if (entries.hasOwnProperty(id)) {
                         let name = entries[id];
@@ -98,6 +100,14 @@
                                 break;
                             case 'object':
                                 let sent_entries = Object.values(name);
+
+                                console.log(sent_entries)
+                                sent_entries.forEach(item => {
+                                    if (item.user) {
+                                        this.contributors[item.user] = 1;
+                                    }
+                                });
+
                                 this.$store.commit('mapItem', {name: sent_entries[sent_entries.length-1].name, id, approval: true});
                                 break;
                         }
