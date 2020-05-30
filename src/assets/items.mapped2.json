@@ -1636,7 +1636,8 @@
     "nt": "s",
     "desc": "Thank you for helping us to fix bugs, fight abuses and rebalance the imbalanced. This orb gives you one-time Attributes and Skills reset so you can re-think and finalize the abilities of your character. Please read the updated Skill and Attribute information for you to decide properly, we won't give this orb again if you made mistake to be fair with others. Cannot be traded or transferred to another character. This item is NON-STORABLE meaning you can't have this orb twice, thrice or so. You need to reconnect or refresh the page after using this item. Again, we thank you for supporting Pacifica Online from the Nexus Pixels Team!",
     "id": 113,
-    "hash": "accc1c98"
+    "hash": "accc1c98",
+    "featured": true
   },
   {
     "name": "Yellow stone",
