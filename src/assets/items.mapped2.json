@@ -8030,7 +8030,7 @@
     "unknownCol2": 0,
     "hash": "35e0ee24",
     "approval": true,
-    "id": 591
+    "id": null
   },
   {
     "name": "Quality fur",
@@ -8063,7 +8063,7 @@
     "lvlreq": 0,
     "unknownCol": "t",
     "unknownCol2": 0,
-    "id": null,
+    "id": 591,
     "hash": "a6df912a"
   },
   {
