@@ -4570,7 +4570,7 @@
     "stats": 0,
     "nt": "t",
     "desc": "Edible mushroom.",
-    "id": null,
+    "id": 652,
     "hash": "4dc03770"
   },
   {
@@ -5100,7 +5100,8 @@
     "nt": "n",
     "desc": "Special celestial daemon that embodies a Dryad's soul.",
     "id": null,
-    "hash": "563d7b8b"
+    "hash": "563d7b8b",
+    "featured": true
   },
   {
     "name": "Raptor Enigma daemon",
@@ -5114,7 +5115,8 @@
     "nt": "n",
     "desc": "Special celestial daemon that embodies a Raptor's soul.",
     "id": null,
-    "hash": "021d25be"
+    "hash": "021d25be",
+    "featured": true
   },
   {
     "name": "Cerberon Embirea daemon",
@@ -9175,7 +9177,7 @@
     "stats": "heal_life=30",
     "nt": "n",
     "desc": "Posonous mushroom.",
-    "id": 652,
+    "id": null,
     "hash": "0b9f0b9c"
   },
   {
@@ -10631,7 +10633,8 @@
     "nt": "t",
     "desc": "A highly valued exceptionally rare gem made out of blueish diamond providing great increase of capability to it's wearer.\\n\\nAccording to historical stories, the mythical Encrypters intentionally hid these gems throughout the different parts of Pacifica hoping to help brave and pure heroes defend the world in times of great trouble.",
     "id": 397,
-    "hash": "c466a55e"
+    "hash": "c466a55e",
+    "featured": true
   },
   {
     "name": "Amazeon",
