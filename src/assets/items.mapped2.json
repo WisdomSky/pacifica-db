@@ -5130,7 +5130,8 @@
     "nt": "n",
     "desc": "Special celestial daemon that embodies a Cerberon's soul.",
     "id": null,
-    "hash": "54830b82"
+    "hash": "54830b82",
+    "featured": true
   },
   {
     "name": "Invasion trophy",
@@ -6874,7 +6875,7 @@
     "lvlreq": 0,
     "unknownCol": "t",
     "unknownCol2": "A letter tobe delivered to NPC George.",
-    "id": null,
+    "id": 579,
     "hash": "acda081a"
   },
   {
@@ -6885,7 +6886,7 @@
     "lvlreq": 0,
     "unknownCol": "t",
     "unknownCol2": "A letter tobe delivered to NPC Pete.",
-    "id": null,
+    "id": 579,
     "hash": "f368ea14"
   },
   {
@@ -6908,7 +6909,7 @@
     "lvlreq": 0,
     "unknownCol": "t",
     "unknownCol2": "A reply letter tobe delivered to NPC yuki.",
-    "id": null,
+    "id": 579,
     "hash": "05e8a5dd"
   },
   {
