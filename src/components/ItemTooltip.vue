@@ -182,7 +182,7 @@
                         return undefined;
                     }
 
-                    return `<strong>${Case.capital(label)}</strong>` + (value !== 0 ? ': ' + value : '')
+                    return `<strong>${Case.capital(label)}</strong>` + (value !== '+0' ? ': ' + value : '')
 
 
                 }).filter(v => v !== undefined).sort((a,b) => {
