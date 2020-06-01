@@ -105,19 +105,25 @@
                         'cane',
                         'boost',
                         'range'
-                    ]
+                    ];
+
+
+                    if (String(value).trim().charAt(0) !== '-') {
+                        value = '+' + value;
+                    }
+
 
                     let match;
 
 
                     if (match = label.match(/(.+)_slash_chance$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}% chance to trigger`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}% chance to trigger`;
                     }
                     if (match = label.match(/(.+)_duplicate_chance$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}% chance to double`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}% chance to double`;
                     }
                     if (match = label.match(/(.+)_chance$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}% chance`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}% chance`;
                     }
                     if (match = label.match(/(.+)_plus$/i)) {
 
@@ -127,46 +133,46 @@
                             value = (value * 0.39) + '%';
                         }
 
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}`;
                     }
 
 
                     if (match = label.match(/(.+)_non_undead_damage_percent$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}% damage to non-undead`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}% damage to non-undead`;
                     }
 
                     if (match = label.match(/(.+)_effect_percent$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}% effect`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}% effect`;
                     }
 
                     if (match = label.match(/(.+)_offense_percent$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}% offense`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}% offense`;
                     }
 
                     if (match = label.match(/(.+)_duration_percent$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}% duration`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}% duration`;
                     }
 
                     if (match = label.match(/(.+)_effect_duration$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value} seconds effect duration`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value} seconds effect duration`;
                     }
                     if (match = label.match(/(.+)_duration$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value} seconds duration`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value} seconds duration`;
                     }
 
                     if (match = label.match(/(.+)_percent$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value}%`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value}%`;
                     }
 
                     if (match = label.match(/(.+)_range$/i)) {
-                        return `<strong>${Case.capital(match[1])}</strong>: +${value} range`;
+                        return `<strong>${Case.capital(match[1])}</strong>: ${value} range`;
                     }
 
                     if (label === 'heal_life') {
-                        return `<strong>HP Restore</strong>: +${value}`;
+                        return `<strong>HP Restore</strong>: ${value}`;
                     }
                     if (label === 'regen_life') {
-                        return `<strong>HP Regen</strong>: +${value}`;
+                        return `<strong>HP Regen</strong>: ${value}`;
                     }
 
                     if (label === 'daemon_damage') {
@@ -176,7 +182,7 @@
                         return undefined;
                     }
 
-                    return `<strong>${Case.capital(label)}</strong>` + (value > 0 ? ': +' + value : '')
+                    return `<strong>${Case.capital(label)}</strong>` + (value !== 0 ? ': ' + value : '')
 
 
                 }).filter(v => v !== undefined).sort((a,b) => {
