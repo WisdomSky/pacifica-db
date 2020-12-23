@@ -2,15 +2,61 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import _ from 'lodash'
 import hash from 'hash-sum'
+import VuexPersist from 'vuex-persist'
 
-Vue.use(Vuex)
+
+const vuexPersist = new VuexPersist({
+            key: 'hellopo',
+            storage: window.localStorage,
+            reducer: (state) => {
+                return {
+                    live: state.live
+                }
+            },
+        });
+
+
+Vue.use(Vuex);
 
 export default new Vuex.Store({
       state    : {
           items: [],
+          live: {}
+      },
+      getters: {
+        live(state) {
 
+            let arr = [];
+
+            for (let page_name in state.live) {
+                if (state.live.hasOwnProperty(page_name)) {
+                    let page = JSON.parse(JSON.stringify(state.live[page_name]));
+                    page.name = page_name;
+                    arr.push(page)
+                }
+            }
+
+            return arr;
+        }
       },
       mutations: {
+          setLive(state, list) {
+              state.live = list;
+          },
+          updateLive(state, payload) {
+              let live = state.live[payload.name];
+              if (live !== undefined) {
+                  if (payload.live !== undefined) live.live = payload.live;
+                  if (payload.picture !== undefined) live.picture = payload.picture;
+                  Vue.set(state.live, payload.name, live)
+              } else {
+
+                  if (payload.picture === undefined) payload.picture = null;
+                  if (payload.live === undefined) payload.live = false;
+
+                  Vue.set(state.live, payload.name, payload)
+              }
+          },
           setItems(state, items) {
               state.items = items
           },
@@ -52,5 +98,6 @@ export default new Vuex.Store({
           },
       },
       actions  : {},
-      modules  : {}
+      modules  : {},
+      plugins: [vuexPersist.plugin]
   })

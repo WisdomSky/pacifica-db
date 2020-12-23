@@ -13,29 +13,36 @@
                     <!-- Right aligned nav items -->
                     <b-navbar-nav class="ml-auto">
 
-                        <router-link to="/guides" v-slot="{ href, navigate }">
-                            <b-nav-item :href="href" @click="navigate">Guides</b-nav-item>
+                        <router-link to="/live" v-slot="{ href, navigate }" class="live">
+                            <b-nav-item :href="href" @click="navigate">Live <div id="live-marker"></div></b-nav-item>
                         </router-link>
 
+                        <!--<router-link to="/guides" v-slot="{ href, navigate }">-->
+                            <!--<b-nav-item :href="href" @click="navigate">Guides</b-nav-item>-->
+                        <!--</router-link>-->
 
-                        <b-nav-item-dropdown text="Database" right>
+                        <router-link to="/items" v-slot="{ href, navigate }">
+                            <b-nav-item :href="href" @click="navigate">Database</b-nav-item>
+                        </router-link>
 
-                            <router-link to="/items" v-slot="{ href, navigate }">
-                                <b-dropdown-item :href="href" @click="navigate">Items</b-dropdown-item>
-                            </router-link>
+                        <!--<b-nav-item-dropdown text="Database" right>-->
 
-                            <router-link to="/classes" v-slot="{ href, navigate }">
-                                <b-dropdown-item :href="href" @click="navigate">Classes</b-dropdown-item>
-                            </router-link>
+                            <!--<router-link to="/items" v-slot="{ href, navigate }">-->
+                                <!--<b-dropdown-item :href="href" @click="navigate">Items</b-dropdown-item>-->
+                            <!--</router-link>-->
 
-                            <router-link to="/quests" v-slot="{ href, navigate }">
-                                <b-dropdown-item :href="href" @click="navigate">Quests</b-dropdown-item>
-                            </router-link>
-                            <router-link to="/monsters" v-slot="{ href, navigate }">
-                                <b-dropdown-item :href="href" @click="navigate">Monsters</b-dropdown-item>
-                            </router-link>
+                            <!--<router-link to="/classes" v-slot="{ href, navigate }">-->
+                                <!--<b-dropdown-item :href="href" @click="navigate">Classes</b-dropdown-item>-->
+                            <!--</router-link>-->
 
-                        </b-nav-item-dropdown>
+                            <!--<router-link to="/quests" v-slot="{ href, navigate }">-->
+                                <!--<b-dropdown-item :href="href" @click="navigate">Quests</b-dropdown-item>-->
+                            <!--</router-link>-->
+                            <!--<router-link to="/monsters" v-slot="{ href, navigate }">-->
+                                <!--<b-dropdown-item :href="href" @click="navigate">Monsters</b-dropdown-item>-->
+                            <!--</router-link>-->
+
+                        <!--</b-nav-item-dropdown>-->
 
                         <router-link to="/gallery" v-slot="{ href, navigate }">
                             <b-nav-item :href="href" @click="navigate">Gallery</b-nav-item>
@@ -105,6 +112,39 @@
                 color: #fff;
             }
 
+        }
+
+        .live {
+            /*border: 3px solid #f33;*/
+            /*border-radius: 15px;*/
+
+            /*a {*/
+                /*padding: 5px 10px;*/
+            /*}*/
+
+            margin-right: 10px;
+        }
+
+        #live-marker {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 12px;
+            background: #f00;
+            margin-left: 5px;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
         }
 
     }
