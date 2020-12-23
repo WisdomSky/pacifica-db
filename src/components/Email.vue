@@ -1,5 +1,5 @@
 <template>
-    <a :href="`mailto:admin@hellopo.org?subject=${subjectEncoded}&body=${bodyEncoded}`"><slot>admin@hellopo.org</slot></a>
+    <a :href="`mailto:i.wisdomsky@gmail.com?subject=${subjectEncoded}&body=${bodyEncoded}`"><slot>i.wisdomsky@gmail.com</slot></a>
 </template>
 
 <script>

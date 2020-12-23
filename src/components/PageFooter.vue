@@ -7,8 +7,8 @@
             </b-col>
             <b-col :cols="12" :md="6" class="text-md-right">
                 <a href="#">Terms</a>
-                | <a href="mailto:admin@hellopo.org?subject=">Submit a content</a>
-                | <a href="mailto:admin@hellopo.org">Contact Us</a>
+                | <a href="mailto:i.wisdomsky@gmail.com?subject=">Submit a content</a>
+                | <a href="mailto:i.wisdomsky@gmail.com">Contact Us</a>
                 <a href="https://www.facebook.com/groups/thedeaconsleague/" class="ml-2" target="_blank"><img src="../assets/fb.png" height="18"></a>
             </b-col>
         </b-row>
