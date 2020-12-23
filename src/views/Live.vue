@@ -102,7 +102,7 @@
 
                               let page_username = page_url.replace(/^https:\/\/www\.facebook\.com\/(.*)$/, '$1');
 
-                              axios.get(`http://3.22.178.32:8888/https://graph.facebook.com/v9.0/${page_username}/picture?redirect=0&type=large`).then(({data: { data }}) => {
+                              axios.get(`https://cors.hellopo.org:8888/https://graph.facebook.com/v9.0/${page_username}/picture?redirect=0&type=large`).then(({data: { data }}) => {
                                   this.$store.commit('updateLive', {
                                       name: page_name,
                                       picture: data.url
@@ -120,7 +120,7 @@
               })
           },
           checkLive(url) {
-            return axios.get(`http://3.22.178.32:8888/${url}/live_videos`).then(({ data }) => {
+            return axios.get(`https://cors.hellopo.org:8888/${url}/live_videos`).then(({ data }) => {
                 return data.indexOf('Happening Now') !== -1;
             })
           }
