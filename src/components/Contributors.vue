@@ -15,6 +15,9 @@
 </template>
 
 <script>
+
+    import axios from 'axios'
+
     export default {
         data() {
 
@@ -102,6 +105,11 @@
                         name: 'Roldan Icban Lumbang',
                         img: 'https://graph.facebook.com/v7.0/100019584420899/picture',
                         url: 'https://fb.me/roldan.lumbang.37'
+                    },
+                    {
+                        name: 'Mary Cristine',
+                        img: 'https://graph.facebook.com/v9.0/1541325279/picture',
+                        url: 'https://fb.me/mistresz24'
                     },
                     {
                         name: 'Face of Lord',
