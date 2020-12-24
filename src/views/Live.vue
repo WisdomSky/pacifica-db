@@ -121,7 +121,7 @@
           },
           checkLive(url) {
             return axios.get(`https://cors.hellopo.org:8888/${url}/live_videos`).then(({ data }) => {
-                return data.indexOf('Happening Now') !== -1;
+                return data.indexOf('Happening Now') !== -1 || data.indexOf('Live Now') !== -1;
             })
           }
       }
