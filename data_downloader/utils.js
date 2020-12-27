@@ -1,4 +1,4 @@
-
+const fs =require('fs');
 
 
 exports.PO_URL = 'https://pacifica.me/';
@@ -10,6 +10,9 @@ exports.base = function (path) {
 
 exports.extract = function (file, dest) {
     return new Promise((resolve, reject) => {
+
+        if (!fs.existsSync(dest)) fs.mkdirSync(dest);
+
         require('7zip-min').unpack(file, dest, err => {
             if (err) {
                 reject(err)

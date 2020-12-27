@@ -10234,5 +10234,137 @@
         "stats": 0,
         "nt": "n",
         "desc": "Mystical Daemon that enchants it's owner a special ability to ALWAYS inflict critical damage (Normal damage becomes critical damage, and critical damage becomes +12.5% more effective) whenever the last digit of server time in minutes ends on 3."
-    }
+    },
+  {
+    "name": "Flippy writer daemon",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0 dexterity_plus=1 mana_plus=30",
+    "nt": "n",
+    "desc": "10th Anniversary special. A celestial deamon from the library."
+  },
+  {
+    "name": "Flippy book daemon",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0 mana_plus=30 wisdom_plus=1",
+    "nt": "n",
+    "desc": "10th Anniversary special. A celestial deamon from the library."
+  },
+  {
+    "name": "Flippy corder lead",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. Lead camera man Flippy. The best in Flippy land."
+  },
+  {
+    "name": "Flippy corder",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. Camera man, second in command in Flippy land theatre."
+  },
+  {
+    "name": "Flippy corder assistant",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. Assistant Flippy camera man. It still have alot to learn."
+  },
+  {
+    "name": "Flippy king drummer",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. The most popular drummer in  Flippy land. When it plays the drum, everybody listens."
+  },
+  {
+    "name": "Flippy knight trumpeteer",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. Trumpeteer in Flippy land that performs in knighthood pub. The best in town, second to King drummer."
+  },
+  {
+    "name": "Flippy singer",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. Singer, Rapper, Beatboxer. Name it! this Flippy is good!"
+  },
+  {
+    "name": "Flippy master painter",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. Master painter Flippy, rumors says it can paint a master piece in a snap."
+  },
+  {
+    "name": "Flippy pro painter",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. Pro Flippy painter, it has a shop in Flippy land."
+  },
+  {
+    "name": "Flippy painter",
+    "type": "Daemon",
+    "weight": 10,
+    "price": 0,
+    "lvlreq": 0,
+    "unknownCol": 0,
+    "unknownCol2": 0,
+    "stats": "daemon_damage=0",
+    "nt": "t",
+    "desc": "10th Anniversary special. Flippy painter, skillfull yes, but shy."
+  }
 ]

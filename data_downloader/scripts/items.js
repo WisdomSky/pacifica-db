@@ -11,8 +11,10 @@ exports.fetch = function () {
     console.log('Downloading items...');
     return new Promise(async(resolve) => {
         if (!fs.existsSync(config.tmp)) fs.mkdirSync(config.tmp);
-        fs.writeFileSync(config.tmp + '/items.gz', await download(base('play/itemdesc')));
-        await extract(config.tmp + '/items.gz', config.tmp + '/extracted');
+        fs.writeFileSync(config.tmp + '/extracted/items', await download(base('play/itemdesc')));
+        // await extract(config.tmp + '/items.gz', config.tmp + '/extracted').catch((err) => {
+        //     console.log(err)
+        // });
 
         let classes = ['Swordsman', 'Waif', 'Archer', 'Deacon', 'Knight', 'Bandit', 'Ranger', 'Cleric'];
         let reader = new Reader(config.tmp + '/extracted/items');

@@ -26,28 +26,28 @@ const hash = require('hash-sum');
     // fs.writeJsonSync(config.dest + '/mobs.json', mobs, { spaces: 4});
     //
     //
-    // // items
-    // let items = await require('./scripts/items').fetch();
-    // fs.writeJsonSync(config.dest + '/items.json', items, { spaces: 4});
-    //
-    // let itemfiles = await require('./scripts/item.files').fetch();
-    // fs.writeJsonSync(config.dest + '/items.files.json', itemfiles, { spaces: 4});
-    //
-    // let itemsid = await require('./scripts/item.id').fetch();
-    // fs.writeJsonSync(config.dest + '/items.id.json', itemsid, { spaces: 4});
-    //
-    // let itemsidflipped = utils.objectFlip(itemsid);
-    //
-    // let itemsmapped = items.map((item) => {
-    //     item.id = Number(itemsidflipped[item.name]);
-    //     item.hash = hash(item);
-    //     return item;
-    // });
-    //
-    // fs.writeJsonSync(config.dest + '/items.mapped.json', itemsmapped, { spaces: 4});
+    // items
+    let items = await require('./scripts/items').fetch();
+    fs.writeJsonSync(config.dest + '/items.json', items, { spaces: 4});
+
+    let itemfiles = await require('./scripts/item.files').fetch();
+    fs.writeJsonSync(config.dest + '/items.files.json', itemfiles, { spaces: 4});
+
+    let itemsid = await require('./scripts/item.id').fetch();
+    fs.writeJsonSync(config.dest + '/items.id.json', itemsid, { spaces: 4});
+
+    let itemsidflipped = utils.objectFlip(itemsid);
+
+    let itemsmapped = items.map((item) => {
+        item.id = Number(itemsidflipped[item.name]);
+        item.hash = hash(item);
+        return item;
+    });
+
+    fs.writeJsonSync(config.dest + '/items.mapped.json', itemsmapped, { spaces: 4});
     //
 
-    await require('./scripts/bgm.files').fetch();
+    // await require('./scripts/bgm.files').fetch();
     //
     //
     // // gfx

@@ -10,7 +10,7 @@ const config = require('./config');
     if (!fs.existsSync(config.tmp)) fs.mkdirSync(config.tmp);
     let ln = [];
     if (!fs.existsSync(config.tmp + '/items')) fs.mkdirSync(config.tmp + '/items');
-    for (let i=895;i<=20000;i++) {
+    for (let i=0;i<=20000;i++) {
         try {
             fs.writeFileSync(`${config.tmp}/items/${i}.png`, await download(base(`play/item/i/${i}`)));
             ln.push(i);
