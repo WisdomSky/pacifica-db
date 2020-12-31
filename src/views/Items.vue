@@ -185,7 +185,7 @@
 
                 if (item.type === 'Daemon') {
                     return require('../assets/items/161.png')
-                } else if (item.id && images.keys().indexOf(`./${item.id}.png`) !== -1) {
+                } else if (item.id !== undefined && images.keys().indexOf(`./${item.id}.png`) !== -1) {
                     return images('./' + item.id + ".png")
                 } else {
                     return require('../assets/noimg.png')
