@@ -43,7 +43,7 @@
         data() {
 
 
-            let gallery = require.context('../assets/gallery/', false, /\.jpg/);
+            let gallery = require.context('../assets/gallery/', false, /\.(jpg|png)/);
 
             return {
                 type   : 'all',
@@ -199,6 +199,11 @@
                         author: 'Keneth Altiveros',
                         type  : 'game',
                         date  : '2020-05-26 20:48:00'
+                    }, {
+                        src   : gallery('./8.png'),
+                        author: 'Semarson Mendrez',
+                        type  : 'game',
+                        date  : '2021-01-04 9:30:00'
                     }
 
                 ],
