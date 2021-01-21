@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app"  :class="`page-${$route.name && $route.name.toLowerCase()}`">
         <div class="navbar-container">
             <b-navbar class="navbar" toggleable="lg" type="dark" variant="default">
                 <router-link class="navbar-brand" to="/">
@@ -13,9 +13,6 @@
                     <!-- Right aligned nav items -->
                     <b-navbar-nav class="ml-auto">
 
-                        <router-link to="/live" v-slot="{ href, navigate }" class="live">
-                            <b-nav-item :href="href" @click="navigate">Live <div id="live-marker"></div></b-nav-item>
-                        </router-link>
 
                         <!--<router-link to="/guides" v-slot="{ href, navigate }">-->
                             <!--<b-nav-item :href="href" @click="navigate">Guides</b-nav-item>-->
@@ -51,6 +48,15 @@
 
                         <router-link to="/music" v-slot="{ href, navigate }">
                             <b-nav-item :href="href" @click="navigate">Music</b-nav-item>
+                        </router-link>
+
+                        <router-link to="/live" v-slot="{ href, navigate }" class="live">
+                            <b-nav-item :href="href" @click="navigate">Live Steamers<!--<div id="live-marker"></div>--></b-nav-item>
+                        </router-link>
+
+
+                        <router-link to="/about" v-slot="{ href, navigate }">
+                            <b-nav-item :href="href" @click="navigate">About</b-nav-item>
                         </router-link>
 
 
@@ -122,7 +128,7 @@
                 /*padding: 5px 10px;*/
             /*}*/
 
-            margin-right: 10px;
+            /*margin-right: 10px;*/
         }
 
         #live-marker {

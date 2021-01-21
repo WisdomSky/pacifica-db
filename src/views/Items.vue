@@ -55,7 +55,7 @@
                 perPage    : 25,
                 sortBy     : "",
                 sortDesc   : false,
-                query      : "",
+                query      : this.$route.query.s || '',
                 categorized: true,
                 db         : fbapp.database(),
                 dorks      : [
@@ -98,10 +98,11 @@
             }
         },
         watch   : {
-            query() {
+            query(query) {
                 this.$router.replace({
                      query: {
-                         page: undefined
+                         page: undefined,
+                         s: query || undefined
                      }
                  }).catch(() => {
 

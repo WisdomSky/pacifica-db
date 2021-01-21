@@ -12,7 +12,7 @@
     </h3>
 
     <div class="mt-4 pt-4">
-      <b-container>
+      <b-container v-if="$store.getters.live.length">
         <b-row>
           <b-col class="live-item-container"
                  v-for="(live, index) in toArray"
@@ -24,7 +24,10 @@
                  md="4"
           >
             <a :href="`${live.url}`" target="_blank">
-              <img :src="live.picture" :alt="live.name">
+              <img src="../assets/logo.png" class="temp-avatar" v-show="live.picture === undefined || avatarLoaded.indexOf(live.name) === -1">
+              <img :src="live.picture" :alt="live.name" class="streamer-avatar" @load="avatarLoaded.push(live.name)"
+                   v-show="live.picture !== undefined && avatarLoaded.indexOf(live.name) !== -1"
+              >
               <div class="name">
                 <strong>{{ live.name}}</strong>
               </div>
@@ -32,7 +35,9 @@
           </b-col>
         </b-row>
       </b-container>
-
+      <b-container v-else class="text-center">
+        <b-spinner style="vertical-align: middle"></b-spinner> <strong class="ml-2">Loading...</strong>
+      </b-container>
 
 
     </div>
@@ -51,7 +56,8 @@
           return {
               db         : fbapp.database(),
               scanner: null,
-              sortAsc: false
+              sortAsc: false,
+              avatarLoaded: []
           }
       },
 
@@ -93,7 +99,7 @@
                       if (pages.hasOwnProperty(page_name)) {
                           let page_url = pages[page_name];
 
-                          this.checkLive(page_url).then(async (live) => {
+                          this.checkLive(page_url).then((live) => {
                               this.$store.commit('updateLive', {
                                   name: page_name,
                                   url: page_url,
@@ -109,7 +115,7 @@
                                   });
                               })
 
-                              await this.$nextTick();
+                              // await this.$nextTick();
 
                           })
 
@@ -150,23 +156,13 @@
     }
 
 
-    @media all and (max-width: 1079px) {
-      width: 25%;
-    }
-    @media all and (max-width: 768px) {
-      width: 33%;
-    }
-
-    @media all and (max-width: 540px) {
-      width: 50%;
-    }
 
 
     a {
       color: #777;
 
       img {
-        width: 100%;
+        min-width: 100%;
         border-radius: 100%;
         overflow: hidden;
         border: 1px solid #ccc;
@@ -211,6 +207,13 @@
 
     }
 
+    .streamer-avatar {
+      /*background: transparent url(../assets/logo.png) no-repeat center center;*/
+    }
+
+    .temp-avatar {
+      max-width: 256px;
+    }
 
   }
 
