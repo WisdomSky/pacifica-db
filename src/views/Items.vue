@@ -173,6 +173,19 @@
                     }
 
                     return false;
+                }).map(item => {
+
+                    let iquery = this.query.toLowerCase();
+
+                    let iitem = JSON.parse(JSON.stringify(item).toLowerCase());
+
+
+                    if (iitem.name === iquery) item.score = 5;
+                    else if (iitem.name.indexOf(iquery) !== -1) item.score = 4;
+
+
+
+                    return item;
                 })
             }
         },

@@ -87,8 +87,12 @@
     }
 
     #submit-container {
-        margin-top: 20px;
         text-align: center;
+
+        button {
+            margin-top: 20px;
+        }
+
     }
 
     button {

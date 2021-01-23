@@ -156,13 +156,23 @@
     }
 
 
+    @media all and (max-width: 1079px) {
+      width: 25%;
+    }
+    @media all and (max-width: 768px) {
+      width: 33%;
+    }
+
+    @media all and (max-width: 540px) {
+      width: 50%;
+    }
 
 
     a {
       color: #777;
 
       img {
-        min-width: 100%;
+        width: 100%;
         border-radius: 100%;
         overflow: hidden;
         border: 1px solid #ccc;
