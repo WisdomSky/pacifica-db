@@ -18,7 +18,17 @@
         </page-section>
 
         <div>
-            <vue-aplayer autoplay :music="current" :list="list" :autoplay="false" @loadstart="onChange"/>
+            <vue-aplayer autoplay :music="current" :list="list" :autoplay="false" @loadstart="onChange" :showLrc="true">
+                <template v-slot:display="{ currentMusic, playStat }">
+                    <div class="text-right mb-2">
+                        <a :href="currentMusic.src"
+                           :download="currentMusic.src.replace(/.*\/(.*)\.(?:[^\.]*)\.mp3$/, '$1.mp3')"
+                           class="text-success">
+                            <b-icon icon="download"></b-icon> Download
+                        </a>
+                    </div>
+                </template>
+            </vue-aplayer>
         </div>
 
 
