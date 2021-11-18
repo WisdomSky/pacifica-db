@@ -50,9 +50,9 @@
                             <b-nav-item :href="href" @click="navigate">Music</b-nav-item>
                         </router-link>
 
-                        <router-link to="/live" v-slot="{ href, navigate }" class="live">
-                            <b-nav-item :href="href" @click="navigate">Live Steamers<!--<div id="live-marker"></div>--></b-nav-item>
-                        </router-link>
+                        <!--<router-link to="/live" v-slot="{ href, navigate }" class="live">-->
+                            <!--<b-nav-item :href="href" @click="navigate">Live Steamers&lt;!&ndash;<div id="live-marker"></div>&ndash;&gt;</b-nav-item>-->
+                        <!--</router-link>-->
 
 
                         <router-link to="/about" v-slot="{ href, navigate }">
