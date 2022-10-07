@@ -1,5 +1,10 @@
 # pacifica
 
+Unofficial item database for Pacifica Online.
+
+Homepage: https://goofy-leakey-0b08d6.netlify.app/
+
+
 ## Project setup
 ```
 npm install
